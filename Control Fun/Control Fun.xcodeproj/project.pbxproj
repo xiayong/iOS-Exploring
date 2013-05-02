@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61CF6627172FE24200BDFE01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CF6626172FE24200BDFE01 /* UIKit.framework */; };
+		61CF6629172FE24200BDFE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CF6628172FE24200BDFE01 /* Foundation.framework */; };
+		61CF662B172FE24200BDFE01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CF662A172FE24200BDFE01 /* CoreGraphics.framework */; };
+		61CF6631172FE24300BDFE01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61CF662F172FE24300BDFE01 /* InfoPlist.strings */; };
+		61CF6633172FE24300BDFE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF6632172FE24300BDFE01 /* main.m */; };
+		61CF6637172FE24300BDFE01 /* XYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF6636172FE24300BDFE01 /* XYAppDelegate.m */; };
+		61CF6639172FE24300BDFE01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF6638172FE24300BDFE01 /* Default.png */; };
+		61CF663B172FE24300BDFE01 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF663A172FE24300BDFE01 /* Default@2x.png */; };
+		61CF663D172FE24300BDFE01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF663C172FE24300BDFE01 /* Default-568h@2x.png */; };
+		61CF6640172FE24300BDFE01 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF663F172FE24300BDFE01 /* XYViewController.m */; };
+		61CF6643172FE24300BDFE01 /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61CF6641172FE24300BDFE01 /* XYViewController.xib */; };
+		61CF664A172FE2F900BDFE01 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF6649172FE2F900BDFE01 /* logo.png */; };
+		61CF664D1732D19E00BDFE01 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF664B1732D19E00BDFE01 /* blueButton.png */; };
+		61CF664E1732D19E00BDFE01 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CF664C1732D19E00BDFE01 /* whiteButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61CF6623172FE24200BDFE01 /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CF6626172FE24200BDFE01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61CF6628172FE24200BDFE01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61CF662A172FE24200BDFE01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61CF662E172FE24300BDFE01 /* Control Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
+		61CF6630172FE24300BDFE01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61CF6632172FE24300BDFE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61CF6634172FE24300BDFE01 /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
+		61CF6635172FE24300BDFE01 /* XYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAppDelegate.h; sourceTree = "<group>"; };
+		61CF6636172FE24300BDFE01 /* XYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAppDelegate.m; sourceTree = "<group>"; };
+		61CF6638172FE24300BDFE01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		61CF663A172FE24300BDFE01 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		61CF663C172FE24300BDFE01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61CF663E172FE24300BDFE01 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		61CF663F172FE24300BDFE01 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		61CF6642172FE24300BDFE01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYViewController.xib; sourceTree = "<group>"; };
+		61CF6649172FE2F900BDFE01 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		61CF664B1732D19E00BDFE01 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		61CF664C1732D19E00BDFE01 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CF6620172FE24200BDFE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CF6627172FE24200BDFE01 /* UIKit.framework in Frameworks */,
+				61CF6629172FE24200BDFE01 /* Foundation.framework in Frameworks */,
+				61CF662B172FE24200BDFE01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CF661A172FE24200BDFE01 = {
+			isa = PBXGroup;
+			children = (
+				61CF662C172FE24200BDFE01 /* Control Fun */,
+				61CF6625172FE24200BDFE01 /* Frameworks */,
+				61CF6624172FE24200BDFE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61CF6624172FE24200BDFE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61CF6623172FE24200BDFE01 /* Control Fun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61CF6625172FE24200BDFE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61CF6626172FE24200BDFE01 /* UIKit.framework */,
+				61CF6628172FE24200BDFE01 /* Foundation.framework */,
+				61CF662A172FE24200BDFE01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61CF662C172FE24200BDFE01 /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				61CF6635172FE24300BDFE01 /* XYAppDelegate.h */,
+				61CF6636172FE24300BDFE01 /* XYAppDelegate.m */,
+				61CF663E172FE24300BDFE01 /* XYViewController.h */,
+				61CF663F172FE24300BDFE01 /* XYViewController.m */,
+				61CF6641172FE24300BDFE01 /* XYViewController.xib */,
+				61CF662D172FE24300BDFE01 /* Supporting Files */,
+			);
+			path = "Control Fun";
+			sourceTree = "<group>";
+		};
+		61CF662D172FE24300BDFE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61CF664B1732D19E00BDFE01 /* blueButton.png */,
+				61CF664C1732D19E00BDFE01 /* whiteButton.png */,
+				61CF6649172FE2F900BDFE01 /* logo.png */,
+				61CF662E172FE24300BDFE01 /* Control Fun-Info.plist */,
+				61CF662F172FE24300BDFE01 /* InfoPlist.strings */,
+				61CF6632172FE24300BDFE01 /* main.m */,
+				61CF6634172FE24300BDFE01 /* Control Fun-Prefix.pch */,
+				61CF6638172FE24300BDFE01 /* Default.png */,
+				61CF663A172FE24300BDFE01 /* Default@2x.png */,
+				61CF663C172FE24300BDFE01 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CF6622172FE24200BDFE01 /* Control Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CF6646172FE24300BDFE01 /* Build configuration list for PBXNativeTarget "Control Fun" */;
+			buildPhases = (
+				61CF661F172FE24200BDFE01 /* Sources */,
+				61CF6620172FE24200BDFE01 /* Frameworks */,
+				61CF6621172FE24200BDFE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Control Fun";
+			productName = "Control Fun";
+			productReference = 61CF6623172FE24200BDFE01 /* Control Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61CF661B172FE24200BDFE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XY;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Xia Yong";
+			};
+			buildConfigurationList = 61CF661E172FE24200BDFE01 /* Build configuration list for PBXProject "Control Fun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61CF661A172FE24200BDFE01;
+			productRefGroup = 61CF6624172FE24200BDFE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CF6622172FE24200BDFE01 /* Control Fun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61CF6621172FE24200BDFE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CF6631172FE24300BDFE01 /* InfoPlist.strings in Resources */,
+				61CF6639172FE24300BDFE01 /* Default.png in Resources */,
+				61CF663B172FE24300BDFE01 /* Default@2x.png in Resources */,
+				61CF663D172FE24300BDFE01 /* Default-568h@2x.png in Resources */,
+				61CF6643172FE24300BDFE01 /* XYViewController.xib in Resources */,
+				61CF664A172FE2F900BDFE01 /* logo.png in Resources */,
+				61CF664D1732D19E00BDFE01 /* blueButton.png in Resources */,
+				61CF664E1732D19E00BDFE01 /* whiteButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61CF661F172FE24200BDFE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CF6633172FE24300BDFE01 /* main.m in Sources */,
+				61CF6637172FE24300BDFE01 /* XYAppDelegate.m in Sources */,
+				61CF6640172FE24300BDFE01 /* XYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61CF662F172FE24300BDFE01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CF6630172FE24300BDFE01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61CF6641172FE24300BDFE01 /* XYViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CF6642172FE24300BDFE01 /* en */,
+			);
+			name = XYViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61CF6644172FE24300BDFE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61CF6645172FE24300BDFE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61CF6647172FE24300BDFE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61CF6648172FE24300BDFE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CF661E172FE24200BDFE01 /* Build configuration list for PBXProject "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CF6644172FE24300BDFE01 /* Debug */,
+				61CF6645172FE24300BDFE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CF6646172FE24300BDFE01 /* Build configuration list for PBXNativeTarget "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CF6647172FE24300BDFE01 /* Debug */,
+				61CF6648172FE24300BDFE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61CF661B172FE24200BDFE01 /* Project object */;
+}
