@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Autosize/Autosize.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Control Fun/Control Fun.xcodeproj">
    </FileRef>
 </Workspace>
