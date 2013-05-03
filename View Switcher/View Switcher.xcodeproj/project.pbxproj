@@ -16,6 +16,12 @@
 		61FE56AF1734342800B43BAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56AE1734342800B43BAA /* Default.png */; };
 		61FE56B11734342800B43BAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56B01734342800B43BAA /* Default@2x.png */; };
 		61FE56B31734342800B43BAA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56B21734342800B43BAA /* Default-568h@2x.png */; };
+		61FE56BB173435BF00B43BAA /* XYSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE56BA173435BF00B43BAA /* XYSwitchViewController.m */; };
+		61FE56BE1734368D00B43BAA /* XYBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE56BD1734368D00B43BAA /* XYBlueViewController.m */; };
+		61FE56C1173436D500B43BAA /* XYYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE56C0173436D500B43BAA /* XYYellowViewController.m */; };
+		61FE56C417343A8400B43BAA /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C217343A8400B43BAA /* SwitchView.xib */; };
+		61FE56C717343AAF00B43BAA /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C517343AAF00B43BAA /* BlueView.xib */; };
+		61FE56C917343AC400B43BAA /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C817343AC400B43BAA /* YellowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,15 @@
 		61FE56AE1734342800B43BAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		61FE56B01734342800B43BAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61FE56B21734342800B43BAA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61FE56B9173435BF00B43BAA /* XYSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSwitchViewController.h; sourceTree = "<group>"; };
+		61FE56BA173435BF00B43BAA /* XYSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSwitchViewController.m; sourceTree = "<group>"; };
+		61FE56BC1734368D00B43BAA /* XYBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBlueViewController.h; sourceTree = "<group>"; };
+		61FE56BD1734368D00B43BAA /* XYBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBlueViewController.m; sourceTree = "<group>"; };
+		61FE56BF173436D500B43BAA /* XYYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYYellowViewController.h; sourceTree = "<group>"; };
+		61FE56C0173436D500B43BAA /* XYYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYYellowViewController.m; sourceTree = "<group>"; };
+		61FE56C317343A8400B43BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwitchView.xib; sourceTree = "<group>"; };
+		61FE56C617343AAF00B43BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlueView.xib; sourceTree = "<group>"; };
+		61FE56C817343AC400B43BAA /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +95,15 @@
 			children = (
 				61FE56AB1734342800B43BAA /* XYAppDelegate.h */,
 				61FE56AC1734342800B43BAA /* XYAppDelegate.m */,
+				61FE56B9173435BF00B43BAA /* XYSwitchViewController.h */,
+				61FE56BA173435BF00B43BAA /* XYSwitchViewController.m */,
+				61FE56BC1734368D00B43BAA /* XYBlueViewController.h */,
+				61FE56BD1734368D00B43BAA /* XYBlueViewController.m */,
+				61FE56BF173436D500B43BAA /* XYYellowViewController.h */,
+				61FE56C0173436D500B43BAA /* XYYellowViewController.m */,
+				61FE56C217343A8400B43BAA /* SwitchView.xib */,
+				61FE56C517343AAF00B43BAA /* BlueView.xib */,
+				61FE56C817343AC400B43BAA /* YellowView.xib */,
 				61FE56A31734342800B43BAA /* Supporting Files */,
 			);
 			path = "View Switcher";
@@ -155,6 +179,9 @@
 				61FE56AF1734342800B43BAA /* Default.png in Resources */,
 				61FE56B11734342800B43BAA /* Default@2x.png in Resources */,
 				61FE56B31734342800B43BAA /* Default-568h@2x.png in Resources */,
+				61FE56C417343A8400B43BAA /* SwitchView.xib in Resources */,
+				61FE56C717343AAF00B43BAA /* BlueView.xib in Resources */,
+				61FE56C917343AC400B43BAA /* YellowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +194,9 @@
 			files = (
 				61FE56A91734342800B43BAA /* main.m in Sources */,
 				61FE56AD1734342800B43BAA /* XYAppDelegate.m in Sources */,
+				61FE56BB173435BF00B43BAA /* XYSwitchViewController.m in Sources */,
+				61FE56BE1734368D00B43BAA /* XYBlueViewController.m in Sources */,
+				61FE56C1173436D500B43BAA /* XYYellowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +209,22 @@
 				61FE56A61734342800B43BAA /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61FE56C217343A8400B43BAA /* SwitchView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FE56C317343A8400B43BAA /* en */,
+			);
+			name = SwitchView.xib;
+			sourceTree = "<group>";
+		};
+		61FE56C517343AAF00B43BAA /* BlueView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FE56C617343AAF00B43BAA /* en */,
+			);
+			name = BlueView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
