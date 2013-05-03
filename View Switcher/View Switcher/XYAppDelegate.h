@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XYSwitchViewController;
 
 @interface XYAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) XYSwitchViewController *switchViewController;
 
 @end
