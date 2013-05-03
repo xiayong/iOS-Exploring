@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface XYViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIView *view;
+@property (strong, nonatomic) IBOutlet UIView *portrait;
+@property (strong, nonatomic) IBOutlet UIView *landscape;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *foos;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *bars;
+- (IBAction)buttonTapped:(UIButton *)sender;
 @end
