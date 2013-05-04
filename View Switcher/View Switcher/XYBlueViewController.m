@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSLog(@"Bule view height: %f", self.view.frame.size.height);
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +36,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Blue View Button Pressed !" message:@"You pressed the button on the blue view." delegate:self cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
+    [alert show];
+}
 @end

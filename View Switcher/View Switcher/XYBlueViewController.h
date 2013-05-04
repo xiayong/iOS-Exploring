@@ -10,4 +10,5 @@
 
 @interface XYBlueViewController : UIViewController
 
+- (IBAction)buttonPressed:(UIButton *)sender;
 @end

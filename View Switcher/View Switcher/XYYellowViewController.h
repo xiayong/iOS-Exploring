@@ -10,4 +10,5 @@
 
 @interface XYYellowViewController : UIViewController
 
+- (IBAction)buttonPressed:(UIButton *)sender;
 @end

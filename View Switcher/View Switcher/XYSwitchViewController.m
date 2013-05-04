@@ -13,6 +13,16 @@
 
 @implementation XYSwitchViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     self.blueViewController = [[XYBlueViewController alloc] initWithNibName:@"BlueView" bundle:nil];
     [self.view insertSubview:self.blueViewController.view atIndex:0];
@@ -36,7 +46,7 @@
     }
 }
 
-// 当收到操作系统内存警告时发送此消息
+// 当收到操作系统内存警告时清理内存
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     if (self.blueViewController.view.superview == nil)
