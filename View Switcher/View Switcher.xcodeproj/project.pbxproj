@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61AF5C141735A3B40069435F /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AF5C121735A3B40069435F /* YellowView.xib */; };
 		61FE569D1734342800B43BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE569C1734342800B43BAA /* UIKit.framework */; };
 		61FE569F1734342800B43BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE569E1734342800B43BAA /* Foundation.framework */; };
 		61FE56A11734342800B43BAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FE56A01734342800B43BAA /* CoreGraphics.framework */; };
@@ -21,10 +22,10 @@
 		61FE56C1173436D500B43BAA /* XYYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE56C0173436D500B43BAA /* XYYellowViewController.m */; };
 		61FE56C417343A8400B43BAA /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C217343A8400B43BAA /* SwitchView.xib */; };
 		61FE56C717343AAF00B43BAA /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C517343AAF00B43BAA /* BlueView.xib */; };
-		61FE56C917343AC400B43BAA /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE56C817343AC400B43BAA /* YellowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61AF5C131735A3B40069435F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YellowView.xib; sourceTree = "<group>"; };
 		61FE56991734342800B43BAA /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FE569C1734342800B43BAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		61FE569E1734342800B43BAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,7 +47,6 @@
 		61FE56C0173436D500B43BAA /* XYYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYYellowViewController.m; sourceTree = "<group>"; };
 		61FE56C317343A8400B43BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwitchView.xib; sourceTree = "<group>"; };
 		61FE56C617343AAF00B43BAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlueView.xib; sourceTree = "<group>"; };
-		61FE56C817343AC400B43BAA /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				61FE56C0173436D500B43BAA /* XYYellowViewController.m */,
 				61FE56C217343A8400B43BAA /* SwitchView.xib */,
 				61FE56C517343AAF00B43BAA /* BlueView.xib */,
-				61FE56C817343AC400B43BAA /* YellowView.xib */,
+				61AF5C121735A3B40069435F /* YellowView.xib */,
 				61FE56A31734342800B43BAA /* Supporting Files */,
 			);
 			path = "View Switcher";
@@ -181,7 +181,7 @@
 				61FE56B31734342800B43BAA /* Default-568h@2x.png in Resources */,
 				61FE56C417343A8400B43BAA /* SwitchView.xib in Resources */,
 				61FE56C717343AAF00B43BAA /* BlueView.xib in Resources */,
-				61FE56C917343AC400B43BAA /* YellowView.xib in Resources */,
+				61AF5C141735A3B40069435F /* YellowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +203,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		61AF5C121735A3B40069435F /* YellowView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AF5C131735A3B40069435F /* en */,
+			);
+			name = YellowView.xib;
+			sourceTree = "<group>";
+		};
 		61FE56A51734342800B43BAA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,6 +335,7 @@
 				61FE56B81734342800B43BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
