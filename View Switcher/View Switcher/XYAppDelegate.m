@@ -20,16 +20,9 @@
     
     self.switchViewController = [[XYSwitchViewController alloc] initWithNibName:@"SwitchView" bundle:nil];
     UIView *switchView = self.switchViewController.view;
-    //CGRect switchViewFrame = switchView.frame;
-    //NSLog(@"Window高度%f", self.window.frame.size.height);
-    //NSLog(@"视图原高度%f", switchViewFrame.size.height);
-    //switchViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
-    
-    //switchViewFrame.size.height -= [UIApplication sharedApplication].statusBarFrame.size.height + self.switchViewController.switchBar.frame.size.height + 4;
-    //NSLog(@"状态栏高度%f", [UIApplication sharedApplication].statusBarFrame.size.height);
-    //NSLog(@"控制栏高度%f", self.switchViewController.switchBar.frame.size.height);
-    //NSLog(@"调整后视图高度%f", switchViewFrame.size.height);
-    //switchView.frame = switchViewFrame;
+    CGRect switchViewFrame = switchView.frame;
+    switchViewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    switchView.frame = switchViewFrame;
     [self.window addSubview:switchView];
     
     self.window.backgroundColor = [UIColor whiteColor];

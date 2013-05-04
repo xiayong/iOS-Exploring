@@ -23,17 +23,10 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    CGRect rect = self.view.frame;
-    rect.size.height = 480;
-    self.view.frame = rect;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"Yellow view height: %f", self.view.frame.size.height);
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,7 +36,7 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Yellow View Button Pressed !" message:@"You pressed the button on the yellow view." delegate:self cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Yellow View Button Pressed !" message:@"You pressed the button on the yellow view." delegate:nil cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
     [alert show];
 }
 @end
