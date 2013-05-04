@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:View Switcher/View Switcher.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swap/Swap.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Autosize/Autosize.xcodeproj">
    </FileRef>
    <FileRef
