@@ -16,6 +16,22 @@
 		618F44F41736F49F004CC353 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F44F31736F49F004CC353 /* Default.png */; };
 		618F44F61736F49F004CC353 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F44F51736F49F004CC353 /* Default@2x.png */; };
 		618F44F81736F49F004CC353 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F44F71736F49F004CC353 /* Default-568h@2x.png */; };
+		618F45011736F597004CC353 /* XYDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F44FF1736F597004CC353 /* XYDatePickerViewController.m */; };
+		618F45061736F669004CC353 /* XYSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F45041736F669004CC353 /* XYSingleComponentPickerViewController.m */; };
+		618F450B1736F6B3004CC353 /* XYDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F45091736F6B3004CC353 /* XYDoubleComponentPickerViewController.m */; };
+		618F45101736F6E9004CC353 /* XYDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F450E1736F6E9004CC353 /* XYDependentComponentPickerViewController.m */; };
+		618F45151736F716004CC353 /* XYCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618F45131736F716004CC353 /* XYCustomPickerViewController.m */; };
+		618F45211736F791004CC353 /* XYCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F45171736F791004CC353 /* XYCustomPickerViewController.xib */; };
+		618F45221736F791004CC353 /* XYDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F45191736F791004CC353 /* XYDatePickerViewController.xib */; };
+		618F45231736F791004CC353 /* XYDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F451B1736F791004CC353 /* XYDependentComponentPickerViewController.xib */; };
+		618F45241736F791004CC353 /* XYDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F451D1736F791004CC353 /* XYDoubleComponentPickerViewController.xib */; };
+		618F45251736F791004CC353 /* XYSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F451F1736F791004CC353 /* XYSingleComponentPickerViewController.xib */; };
+		618F452A1736FAF0004CC353 /* XYTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618F45281736FAF0004CC353 /* XYTabBarController.xib */; };
+		618F453417370337004CC353 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F452F17370337004CC353 /* clockicon.png */; };
+		618F453517370337004CC353 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453017370337004CC353 /* dependenticon.png */; };
+		618F453617370337004CC353 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453117370337004CC353 /* doubleicon.png */; };
+		618F453717370337004CC353 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453217370337004CC353 /* singleicon.png */; };
+		618F453817370337004CC353 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453317370337004CC353 /* toolicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +48,27 @@
 		618F44F31736F49F004CC353 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		618F44F51736F49F004CC353 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		618F44F71736F49F004CC353 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		618F44FE1736F597004CC353 /* XYDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDatePickerViewController.h; sourceTree = "<group>"; };
+		618F44FF1736F597004CC353 /* XYDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDatePickerViewController.m; sourceTree = "<group>"; };
+		618F45031736F669004CC353 /* XYSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		618F45041736F669004CC353 /* XYSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		618F45081736F6B3004CC353 /* XYDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		618F45091736F6B3004CC353 /* XYDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		618F450D1736F6E9004CC353 /* XYDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		618F450E1736F6E9004CC353 /* XYDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		618F45121736F716004CC353 /* XYCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCustomPickerViewController.h; sourceTree = "<group>"; };
+		618F45131736F716004CC353 /* XYCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCustomPickerViewController.m; sourceTree = "<group>"; };
+		618F45181736F791004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYCustomPickerViewController.xib; sourceTree = "<group>"; };
+		618F451A1736F791004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYDatePickerViewController.xib; sourceTree = "<group>"; };
+		618F451C1736F791004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		618F451E1736F791004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		618F45201736F791004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		618F45291736FAF0004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYTabBarController.xib; sourceTree = "<group>"; };
+		618F452F17370337004CC353 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		618F453017370337004CC353 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		618F453117370337004CC353 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		618F453217370337004CC353 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		618F453317370337004CC353 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +117,23 @@
 			children = (
 				618F44F01736F49F004CC353 /* XYAppDelegate.h */,
 				618F44F11736F49F004CC353 /* XYAppDelegate.m */,
+				618F45281736FAF0004CC353 /* XYTabBarController.xib */,
+				618F45171736F791004CC353 /* XYCustomPickerViewController.xib */,
+				618F45191736F791004CC353 /* XYDatePickerViewController.xib */,
+				618F451B1736F791004CC353 /* XYDependentComponentPickerViewController.xib */,
+				618F451D1736F791004CC353 /* XYDoubleComponentPickerViewController.xib */,
+				618F451F1736F791004CC353 /* XYSingleComponentPickerViewController.xib */,
 				618F44E81736F49F004CC353 /* Supporting Files */,
+				618F44FE1736F597004CC353 /* XYDatePickerViewController.h */,
+				618F44FF1736F597004CC353 /* XYDatePickerViewController.m */,
+				618F45031736F669004CC353 /* XYSingleComponentPickerViewController.h */,
+				618F45041736F669004CC353 /* XYSingleComponentPickerViewController.m */,
+				618F45081736F6B3004CC353 /* XYDoubleComponentPickerViewController.h */,
+				618F45091736F6B3004CC353 /* XYDoubleComponentPickerViewController.m */,
+				618F450D1736F6E9004CC353 /* XYDependentComponentPickerViewController.h */,
+				618F450E1736F6E9004CC353 /* XYDependentComponentPickerViewController.m */,
+				618F45121736F716004CC353 /* XYCustomPickerViewController.h */,
+				618F45131736F716004CC353 /* XYCustomPickerViewController.m */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -88,6 +141,11 @@
 		618F44E81736F49F004CC353 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				618F452F17370337004CC353 /* clockicon.png */,
+				618F453017370337004CC353 /* dependenticon.png */,
+				618F453117370337004CC353 /* doubleicon.png */,
+				618F453217370337004CC353 /* singleicon.png */,
+				618F453317370337004CC353 /* toolicon.png */,
 				618F44E91736F49F004CC353 /* Pickers-Info.plist */,
 				618F44EA1736F49F004CC353 /* InfoPlist.strings */,
 				618F44ED1736F49F004CC353 /* main.m */,
@@ -155,6 +213,17 @@
 				618F44F41736F49F004CC353 /* Default.png in Resources */,
 				618F44F61736F49F004CC353 /* Default@2x.png in Resources */,
 				618F44F81736F49F004CC353 /* Default-568h@2x.png in Resources */,
+				618F45211736F791004CC353 /* XYCustomPickerViewController.xib in Resources */,
+				618F45221736F791004CC353 /* XYDatePickerViewController.xib in Resources */,
+				618F45231736F791004CC353 /* XYDependentComponentPickerViewController.xib in Resources */,
+				618F45241736F791004CC353 /* XYDoubleComponentPickerViewController.xib in Resources */,
+				618F45251736F791004CC353 /* XYSingleComponentPickerViewController.xib in Resources */,
+				618F452A1736FAF0004CC353 /* XYTabBarController.xib in Resources */,
+				618F453417370337004CC353 /* clockicon.png in Resources */,
+				618F453517370337004CC353 /* dependenticon.png in Resources */,
+				618F453617370337004CC353 /* doubleicon.png in Resources */,
+				618F453717370337004CC353 /* singleicon.png in Resources */,
+				618F453817370337004CC353 /* toolicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +236,11 @@
 			files = (
 				618F44EE1736F49F004CC353 /* main.m in Sources */,
 				618F44F21736F49F004CC353 /* XYAppDelegate.m in Sources */,
+				618F45011736F597004CC353 /* XYDatePickerViewController.m in Sources */,
+				618F45061736F669004CC353 /* XYSingleComponentPickerViewController.m in Sources */,
+				618F450B1736F6B3004CC353 /* XYDoubleComponentPickerViewController.m in Sources */,
+				618F45101736F6E9004CC353 /* XYDependentComponentPickerViewController.m in Sources */,
+				618F45151736F716004CC353 /* XYCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +253,54 @@
 				618F44EB1736F49F004CC353 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		618F45171736F791004CC353 /* XYCustomPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F45181736F791004CC353 /* en */,
+			);
+			name = XYCustomPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		618F45191736F791004CC353 /* XYDatePickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F451A1736F791004CC353 /* en */,
+			);
+			name = XYDatePickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		618F451B1736F791004CC353 /* XYDependentComponentPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F451C1736F791004CC353 /* en */,
+			);
+			name = XYDependentComponentPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		618F451D1736F791004CC353 /* XYDoubleComponentPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F451E1736F791004CC353 /* en */,
+			);
+			name = XYDoubleComponentPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		618F451F1736F791004CC353 /* XYSingleComponentPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F45201736F791004CC353 /* en */,
+			);
+			name = XYSingleComponentPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+		618F45281736FAF0004CC353 /* XYTabBarController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F45291736FAF0004CC353 /* en */,
+			);
+			name = XYTabBarController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
