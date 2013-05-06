@@ -32,6 +32,7 @@
 		618F453617370337004CC353 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453117370337004CC353 /* doubleicon.png */; };
 		618F453717370337004CC353 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453217370337004CC353 /* singleicon.png */; };
 		618F453817370337004CC353 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618F453317370337004CC353 /* toolicon.png */; };
+		618F453B17383ACF004CC353 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 618F453917383ACF004CC353 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		618F453117370337004CC353 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
 		618F453217370337004CC353 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		618F453317370337004CC353 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		618F453A17383ACF004CC353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		618F44E81736F49F004CC353 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				618F453917383ACF004CC353 /* statedictionary.plist */,
 				618F452F17370337004CC353 /* clockicon.png */,
 				618F453017370337004CC353 /* dependenticon.png */,
 				618F453117370337004CC353 /* doubleicon.png */,
@@ -224,6 +227,7 @@
 				618F453617370337004CC353 /* doubleicon.png in Resources */,
 				618F453717370337004CC353 /* singleicon.png in Resources */,
 				618F453817370337004CC353 /* toolicon.png in Resources */,
+				618F453B17383ACF004CC353 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,14 @@
 				618F45291736FAF0004CC353 /* en */,
 			);
 			name = XYTabBarController.xib;
+			sourceTree = "<group>";
+		};
+		618F453917383ACF004CC353 /* statedictionary.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F453A17383ACF004CC353 /* en */,
+			);
+			name = statedictionary.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +417,7 @@
 				618F44FD1736F49F004CC353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

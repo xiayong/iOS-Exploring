@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYSingleComponentPickerViewController : UIViewController
+@interface XYSingleComponentPickerViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+
+@property (strong, nonatomic) NSArray *pickerData;
+@property (strong, nonatomic) IBOutlet UIPickerView *singlePicker;
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

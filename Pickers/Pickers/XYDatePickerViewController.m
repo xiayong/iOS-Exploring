@@ -27,6 +27,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    NSDate *now = [NSDate date];
+    //[self.datePicker setDate:now animated:NO];
+    self.datePicker.date = now;
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    self.datePicker = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +43,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSDate *selectedDate = [self.datePicker date];
+    NSString *message = [NSString stringWithFormat:@"The date and time you selected is: %@", selectedDate];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Date and Time selected" message:message delegate:self cancelButtonTitle:@"Yes, I did." otherButtonTitles:nil];
+    [alert show];
+}
 @end
