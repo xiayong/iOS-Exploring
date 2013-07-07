@@ -17,5 +17,6 @@
 @property(strong, nonatomic) NSArray *column3;
 @property(strong, nonatomic) NSArray *column4;
 @property(strong, nonatomic) NSArray *column5;
+@property (strong, nonatomic) IBOutlet UIButton *spinButton;
 - (IBAction)spin:(UIButton *)sender;
 @end
