@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYViewController : UIViewController
+@interface XYViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) NSArray *listData;
 
 @end

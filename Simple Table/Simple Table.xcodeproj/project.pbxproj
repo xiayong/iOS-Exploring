@@ -18,6 +18,8 @@
 		610AFC911789B0DF0086CDBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 610AFC901789B0DF0086CDBF /* Default-568h@2x.png */; };
 		610AFC941789B0DF0086CDBF /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AFC931789B0DF0086CDBF /* XYViewController.m */; };
 		610AFC971789B0DF0086CDBF /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610AFC951789B0DF0086CDBF /* XYViewController.xib */; };
+		614655C3178C30F90084213E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 614655C1178C30F90084213E /* star.png */; };
+		614655C4178C30F90084213E /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 614655C2178C30F90084213E /* star2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		610AFC921789B0DF0086CDBF /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
 		610AFC931789B0DF0086CDBF /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
 		610AFC961789B0DF0086CDBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYViewController.xib; sourceTree = "<group>"; };
+		614655C1178C30F90084213E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		614655C2178C30F90084213E /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		610AFC811789B0DF0086CDBF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				614655C1178C30F90084213E /* star.png */,
+				614655C2178C30F90084213E /* star2.png */,
 				610AFC821789B0DF0086CDBF /* Simple Table-Info.plist */,
 				610AFC831789B0DF0086CDBF /* InfoPlist.strings */,
 				610AFC861789B0DF0086CDBF /* main.m */,
@@ -164,6 +170,8 @@
 				610AFC8F1789B0DF0086CDBF /* Default@2x.png in Resources */,
 				610AFC911789B0DF0086CDBF /* Default-568h@2x.png in Resources */,
 				610AFC971789B0DF0086CDBF /* XYViewController.xib in Resources */,
+				614655C3178C30F90084213E /* star.png in Resources */,
+				614655C4178C30F90084213E /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				610AFC9C1789B0DF0086CDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
