@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Simple Table/Simple Table.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pickers/Pickers.xcodeproj">
    </FileRef>
    <FileRef
