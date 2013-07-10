@@ -51,16 +51,16 @@
 - (void)setName:(NSString *)newName {
     if (![newName isEqualToString:_name]) {
         _name = [newName copy];
-        UILabel *nameLabel = (UILabel *)[self.contentView viewWithTag:kNameValueTag];
-        nameLabel.text = _name;
+        //UILabel *nameLabel = (UILabel *)[self.contentView viewWithTag:kNameValueTag];
+        self.nameLabel.text = _name;
     }
 }
 
 - (void)setColor:(NSString *)newColor {
     if (![newColor isEqualToString:_color]) {
         _color = [newColor copy];
-        UILabel *colorLabel = (UILabel *)[self.contentView viewWithTag:kColorValueTag];
-        colorLabel.text = _color;
+        //UILabel *colorLabel = (UILabel *)[self.contentView viewWithTag:kColorValueTag];
+        self.colorLabel.text = _color;
     }
 }
 

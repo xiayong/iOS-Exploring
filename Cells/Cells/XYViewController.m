@@ -43,14 +43,26 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellTableIdentifier = @"CellTableIdentifier";
+    // 只加载一次NIB
+    static BOOL nibsRegistered = NO;
+    if (!nibsRegistered) {
+        UINib *nib = [UINib nibWithNibName:@"XYNameAndColorCell" bundle:nil];
+        [tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
+        nibsRegistered = YES;
+    }
     XYNameAndColorCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
-    if (cell == nil)
-        cell = [[XYNameAndColorCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellTableIdentifier];
+    //if (cell == nil)
+    //    cell = [[XYNameAndColorCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellTableIdentifier];
     NSDictionary *row = [self.computers objectAtIndex:[indexPath row]];
     cell.name = [row objectForKey:@"Name"];
     cell.color = [row objectForKey:@"Color"];
     
     return cell;
+}
+
+#pragma mark Table View Delegate Methods
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65;
 }
 
 @end

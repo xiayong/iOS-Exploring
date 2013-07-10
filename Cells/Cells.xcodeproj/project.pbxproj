@@ -19,6 +19,7 @@
 		611E739E178DABD700378B4E /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E739D178DABD700378B4E /* XYViewController.m */; };
 		611E73A1178DABD700378B4E /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E739F178DABD700378B4E /* XYViewController.xib */; };
 		611E73A9178DAC6A00378B4E /* XYNameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E73A8178DAC6A00378B4E /* XYNameAndColorCell.m */; };
+		611E73AB178DC04300378B4E /* XYNameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E73AA178DC04300378B4E /* XYNameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		611E73A0178DABD700378B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYViewController.xib; sourceTree = "<group>"; };
 		611E73A7178DAC6A00378B4E /* XYNameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNameAndColorCell.h; sourceTree = "<group>"; };
 		611E73A8178DAC6A00378B4E /* XYNameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNameAndColorCell.m; sourceTree = "<group>"; };
+		611E73AA178DC04300378B4E /* XYNameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYNameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +93,10 @@
 				611E739C178DABD700378B4E /* XYViewController.h */,
 				611E739D178DABD700378B4E /* XYViewController.m */,
 				611E739F178DABD700378B4E /* XYViewController.xib */,
-				611E738B178DABD700378B4E /* Supporting Files */,
 				611E73A7178DAC6A00378B4E /* XYNameAndColorCell.h */,
 				611E73A8178DAC6A00378B4E /* XYNameAndColorCell.m */,
+				611E73AA178DC04300378B4E /* XYNameAndColorCell.xib */,
+				611E738B178DABD700378B4E /* Supporting Files */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				611E7399178DABD700378B4E /* Default@2x.png in Resources */,
 				611E739B178DABD700378B4E /* Default-568h@2x.png in Resources */,
 				611E73A1178DABD700378B4E /* XYViewController.xib in Resources */,
+				611E73AB178DC04300378B4E /* XYNameAndColorCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
