@@ -70,11 +70,17 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if ([self.keys count] == 0)
         return nil;
-    return [self.keys objectAtIndex:section];
+    NSString *key = [self.keys objectAtIndex:section];
+    // 放大镜所在的分区不显示标题
+    if (key == UITableViewIndexSearch)
+        key = nil;
+    return key;
 }
 
 // UITableView对象询问自己的数据源对象，分区索引标题显示什么
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    if (self.isSearching)
+        return nil;
     return self.keys;
 }
 
@@ -82,7 +88,18 @@
 #pragma mark Table View Delegate Methods
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.search resignFirstResponder];
+    self.isSearching = NO;
     return indexPath;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index {
+    [self.search resignFirstResponder];
+    if ([self.keys objectAtIndex:index] == UITableViewIndexSearch) {
+        // 当用户点击的放大镜时，屏幕滚动到最上面，用户可以看到搜索栏
+        [self.table setContentOffset:CGPointZero animated:YES];
+        return NSNotFound;
+    } else
+        return index;
 }
 
 #pragma mark -
@@ -94,6 +111,7 @@
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     if ([searchText length] == 0) {
+        self.isSearching = NO;
         [self resetSearch];
         [self.table reloadData];
         return;
@@ -102,10 +120,16 @@
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    self.isSearching = NO;
     searchBar.text = @"";
     [self resetSearch];
     [self.table reloadData];
     [searchBar resignFirstResponder];
+}
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+    self.isSearching = YES;
+    [self.table reloadData];
 }
 
 #pragma mark -
@@ -115,6 +139,8 @@
     self.names = [self.allNames mutableDeepCopy];
     // 刷新所有的key，因为前一次搜索可能删除了某些key(整个分区被删除了)
     self.keys = [[NSMutableArray alloc] init];
+    // 在索引的第一个位置添加一个放大镜
+    [self.keys addObject:UITableViewIndexSearch];
     [self.keys addObjectsFromArray:[[self.allNames allKeys] sortedArrayUsingSelector:@selector(compare:)]];
 }
 
