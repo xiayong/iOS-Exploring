@@ -19,6 +19,7 @@
 		611E73D2178F138400378B4E /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E73D1178F138400378B4E /* XYViewController.m */; };
 		611E73D5178F138400378B4E /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E73D3178F138400378B4E /* XYViewController.xib */; };
 		611E73DC178F14CB00378B4E /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 611E73DB178F14CB00378B4E /* sortednames.plist */; };
+		611E73E2179075E200378B4E /* NSDictionary+XYMutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E73E1179075E200378B4E /* NSDictionary+XYMutableDeepCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		611E73D1178F138400378B4E /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
 		611E73D4178F138400378B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYViewController.xib; sourceTree = "<group>"; };
 		611E73DB178F14CB00378B4E /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		611E73E0179075E200378B4E /* NSDictionary+XYMutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XYMutableDeepCopy.h"; sourceTree = "<group>"; };
+		611E73E1179075E200378B4E /* NSDictionary+XYMutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XYMutableDeepCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				611E73D0178F138400378B4E /* XYViewController.h */,
 				611E73D1178F138400378B4E /* XYViewController.m */,
 				611E73D3178F138400378B4E /* XYViewController.xib */,
+				611E73E0179075E200378B4E /* NSDictionary+XYMutableDeepCopy.h */,
+				611E73E1179075E200378B4E /* NSDictionary+XYMutableDeepCopy.m */,
 				611E73BF178F138400378B4E /* Supporting Files */,
 			);
 			path = Sections;
@@ -181,6 +186,7 @@
 				611E73C5178F138400378B4E /* main.m in Sources */,
 				611E73C9178F138400378B4E /* XYAppDelegate.m in Sources */,
 				611E73D2178F138400378B4E /* XYViewController.m in Sources */,
+				611E73E2179075E200378B4E /* NSDictionary+XYMutableDeepCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				611E73DA178F138400378B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface XYViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
-@property (strong, nonatomic) NSDictionary *names;
-@property (strong, nonatomic) NSArray *keys;
+//@property (strong, nonatomic) NSDictionary *names;
+//@property (strong, nonatomic) NSArray *keys;
+
+@property (strong, nonatomic) NSDictionary *allNames;
+@property (strong, nonatomic) NSMutableDictionary *names;
+@property (strong, nonatomic) NSMutableArray *keys;
+
+@property (strong, nonatomic) IBOutlet UITableView *table;
+@property (strong, nonatomic) IBOutlet UISearchBar *search;
+
+- (void) resetSearch;
+- (void)handleSearchForTerm:(NSString *) searchIerm;
 
 @end
