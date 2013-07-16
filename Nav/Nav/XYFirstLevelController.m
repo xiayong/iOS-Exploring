@@ -8,6 +8,7 @@
 
 #import "XYFirstLevelController.h"
 #import "XYSecondLevelController.h"
+#import "XYDisclosureButtonController.h"
 
 @interface XYFirstLevelController ()
 
@@ -35,7 +36,13 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.title = @"First Level";
-    self.controllers = [[NSMutableArray alloc] init];
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    
+    XYDisclosureButtonController *disclosureButtonController = [[XYDisclosureButtonController alloc] initWithStyle:UITableViewStylePlain];
+    disclosureButtonController.title = @"Disclosure Buttons";
+    disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
+    [array addObject:disclosureButtonController];
+    self.controllers = array;
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,8 +52,6 @@
 }
 
 #pragma mark - Table view data source
-
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
@@ -55,7 +60,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *FirstLevelCellIdentifier = @"Cell";
+    static NSString *FirstLevelCellIdentifier = @"FirstLevelCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:FirstLevelCellIdentifier];
     
     if (cell == nil)
