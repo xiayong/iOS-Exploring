@@ -10,7 +10,7 @@
 #import "XYAppDelegate.h"
 #import "XYDisclosureDetailController.h"
 
-@interface XYDisclosureButtonViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface XYDisclosureButtonViewController ()
 
 @property (strong, nonatomic) XYDisclosureDetailController *childController;
 
