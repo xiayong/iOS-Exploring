@@ -1,23 +1,23 @@
 //
-//  XYDisclosureButtonController.m
+//  XYDisclosureButtonViewController.m
 //  Nav
 //
 //  Created by Xia Yong on 13-7-16.
 //  Copyright (c) 2013年 Xia Yong. All rights reserved.
 //
 
-#import "XYDisclosureButtonController.h"
+#import "XYDisclosureButtonViewController.h"
 #import "XYAppDelegate.h"
 #import "XYDisclosureDetailController.h"
 
-@interface XYDisclosureButtonController () <UITableViewDelegate, UITableViewDataSource>
+@interface XYDisclosureButtonViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) XYDisclosureDetailController *childController;
 
 @end
 
 
-@implementation XYDisclosureButtonController
+@implementation XYDisclosureButtonViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

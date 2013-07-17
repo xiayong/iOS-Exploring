@@ -1,5 +1,5 @@
 //
-//  XYDisclosureButtonController.h
+//  XYDisclosureButtonViewController.h
 //  Nav
 //
 //  Created by Xia Yong on 13-7-16.
@@ -8,7 +8,7 @@
 
 #import "XYSecondLevelController.h"
 
-@interface XYDisclosureButtonController : XYSecondLevelController
+@interface XYDisclosureButtonViewController : XYSecondLevelController
 
 @property (strong, nonatomic) NSArray *list;
 

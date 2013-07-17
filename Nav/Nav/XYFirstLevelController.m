@@ -8,7 +8,7 @@
 
 #import "XYFirstLevelController.h"
 #import "XYSecondLevelController.h"
-#import "XYDisclosureButtonController.h"
+#import "XYDisclosureButtonViewController.h"
 
 @interface XYFirstLevelController ()
 
@@ -38,10 +38,10 @@
     self.title = @"First Level";
     NSMutableArray *array = [[NSMutableArray alloc] init];
     
-    XYDisclosureButtonController *disclosureButtonController = [[XYDisclosureButtonController alloc] initWithStyle:UITableViewStylePlain];
-    disclosureButtonController.title = @"Disclosure Buttons";
-    disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
-    [array addObject:disclosureButtonController];
+    XYSecondLevelController *nextLevelController = [[XYDisclosureButtonViewController alloc] initWithStyle:UITableViewStylePlain];
+    nextLevelController.title = @"Disclosure Buttons";
+    nextLevelController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
+    [array addObject:nextLevelController];
     self.controllers = array;
 }
 

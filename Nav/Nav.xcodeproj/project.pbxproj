@@ -26,7 +26,7 @@
 		611E741F17959D3100378B4E /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 611E741717959D3100378B4E /* disclosureButtonControllerIcon.png */; };
 		611E742017959D3100378B4E /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 611E741817959D3100378B4E /* moveMeIcon.png */; };
 		611E742117959D3100378B4E /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 611E741917959D3100378B4E /* rowControlsIcon.png */; };
-		611E742417959DB000378B4E /* XYDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742317959DAF00378B4E /* XYDisclosureButtonController.m */; };
+		611E742417959DB000378B4E /* XYDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742317959DAF00378B4E /* XYDisclosureButtonViewController.m */; };
 		611E742717959E2000378B4E /* XYDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742617959E2000378B4E /* XYDisclosureDetailController.m */; };
 		611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E74281795A06D00378B4E /* XYDisclosureDetail.xib */; };
 /* End PBXBuildFile section */
@@ -57,8 +57,8 @@
 		611E741717959D3100378B4E /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
 		611E741817959D3100378B4E /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
 		611E741917959D3100378B4E /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
-		611E742217959DAF00378B4E /* XYDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDisclosureButtonController.h; sourceTree = "<group>"; };
-		611E742317959DAF00378B4E /* XYDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDisclosureButtonController.m; sourceTree = "<group>"; };
+		611E742217959DAF00378B4E /* XYDisclosureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDisclosureButtonViewController.h; sourceTree = "<group>"; };
+		611E742317959DAF00378B4E /* XYDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDisclosureButtonViewController.m; sourceTree = "<group>"; };
 		611E742517959E2000378B4E /* XYDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDisclosureDetailController.h; sourceTree = "<group>"; };
 		611E742617959E2000378B4E /* XYDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDisclosureDetailController.m; sourceTree = "<group>"; };
 		611E74281795A06D00378B4E /* XYDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYDisclosureDetail.xib; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 				611E740D17931AFB00378B4E /* XYFirstLevelController.m */,
 				611E740F17931ECB00378B4E /* XYSecondLevelController.h */,
 				611E741017931ECB00378B4E /* XYSecondLevelController.m */,
-				611E742217959DAF00378B4E /* XYDisclosureButtonController.h */,
-				611E742317959DAF00378B4E /* XYDisclosureButtonController.m */,
+				611E742217959DAF00378B4E /* XYDisclosureButtonViewController.h */,
+				611E742317959DAF00378B4E /* XYDisclosureButtonViewController.m */,
 				611E742517959E2000378B4E /* XYDisclosureDetailController.h */,
 				611E742617959E2000378B4E /* XYDisclosureDetailController.m */,
 				611E74281795A06D00378B4E /* XYDisclosureDetail.xib */,
@@ -225,7 +225,7 @@
 				611E74001793168E00378B4E /* XYAppDelegate.m in Sources */,
 				611E740E17931AFB00378B4E /* XYFirstLevelController.m in Sources */,
 				611E741117931ECB00378B4E /* XYSecondLevelController.m in Sources */,
-				611E742417959DB000378B4E /* XYDisclosureButtonController.m in Sources */,
+				611E742417959DB000378B4E /* XYDisclosureButtonViewController.m in Sources */,
 				611E742717959E2000378B4E /* XYDisclosureDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
