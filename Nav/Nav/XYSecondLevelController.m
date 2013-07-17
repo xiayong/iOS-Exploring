@@ -41,6 +41,7 @@
 }
 
 #pragma mark - Table view data source
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -50,6 +51,7 @@
     
     return cell;
 }
+*/
 
 /*
 // Override to support conditional editing of the table view.
