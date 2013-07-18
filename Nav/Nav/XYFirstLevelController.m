@@ -10,6 +10,7 @@
 #import "XYSecondLevelController.h"
 #import "XYDisclosureButtonViewController.h"
 #import "XYCheckListViewController.h"
+#import "XYRowControlsController.h"
 
 @interface XYFirstLevelController ()
 
@@ -39,15 +40,23 @@
     self.title = @"First Level";
     NSMutableArray *array = [[NSMutableArray alloc] init];
     
+    // Disclosure Button
     XYSecondLevelController *disclosureButtonController = [[XYDisclosureButtonViewController alloc] initWithStyle:UITableViewStylePlain];
     disclosureButtonController.title = @"Disclosure Buttons";
     disclosureButtonController.rowImage = [UIImage imageNamed:@"disclosureButtonControllerIcon.png"];
     [array addObject:disclosureButtonController];
     
+    // Check List
     XYSecondLevelController *checkListController = [[XYCheckListViewController alloc] initWithStyle:UITableViewStylePlain];
     checkListController.title = @"Check One";
     checkListController.rowImage = [UIImage imageNamed:@"checkmarkControllerIcon.png"];
     [array addObject:checkListController];
+    
+    // Table Row Controllers
+    XYSecondLevelController *rowControlsController = [[XYRowControlsController alloc] initWithStyle:UITableViewStylePlain];
+    rowControlsController.title = @"Row Controls";
+    rowControlsController.rowImage = [UIImage imageNamed:@"rowControlsIcon.png"];
+    [array addObject:rowControlsController];
     
     self.controllers = array;
 }

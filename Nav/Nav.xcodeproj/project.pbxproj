@@ -30,6 +30,7 @@
 		611E742717959E2000378B4E /* XYDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742617959E2000378B4E /* XYDisclosureDetailController.m */; };
 		611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E74281795A06D00378B4E /* XYDisclosureDetail.xib */; };
 		611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742B1796F5B600378B4E /* XYCheckListViewController.m */; };
+		611E742F1798534000378B4E /* XYRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742E1798533F00378B4E /* XYRowControlsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,8 @@
 		611E74281795A06D00378B4E /* XYDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYDisclosureDetail.xib; sourceTree = "<group>"; };
 		611E742A1796F5B600378B4E /* XYCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCheckListViewController.h; sourceTree = "<group>"; };
 		611E742B1796F5B600378B4E /* XYCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCheckListViewController.m; sourceTree = "<group>"; };
+		611E742D1798533F00378B4E /* XYRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRowControlsController.h; sourceTree = "<group>"; };
+		611E742E1798533F00378B4E /* XYRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRowControlsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				611E74281795A06D00378B4E /* XYDisclosureDetail.xib */,
 				611E742A1796F5B600378B4E /* XYCheckListViewController.h */,
 				611E742B1796F5B600378B4E /* XYCheckListViewController.m */,
+				611E742D1798533F00378B4E /* XYRowControlsController.h */,
+				611E742E1798533F00378B4E /* XYRowControlsController.m */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				611E742417959DB000378B4E /* XYDisclosureButtonViewController.m in Sources */,
 				611E742717959E2000378B4E /* XYDisclosureDetailController.m in Sources */,
 				611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */,
+				611E742F1798534000378B4E /* XYRowControlsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
