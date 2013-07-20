@@ -31,6 +31,7 @@
 		611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E74281795A06D00378B4E /* XYDisclosureDetail.xib */; };
 		611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742B1796F5B600378B4E /* XYCheckListViewController.m */; };
 		611E742F1798534000378B4E /* XYRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742E1798533F00378B4E /* XYRowControlsController.m */; };
+		616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		611E742B1796F5B600378B4E /* XYCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCheckListViewController.m; sourceTree = "<group>"; };
 		611E742D1798533F00378B4E /* XYRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRowControlsController.h; sourceTree = "<group>"; };
 		611E742E1798533F00378B4E /* XYRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRowControlsController.m; sourceTree = "<group>"; };
+		616AA3FC179AED3E00B958B2 /* XYMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMoveMeController.h; sourceTree = "<group>"; };
+		616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMoveMeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +119,6 @@
 			children = (
 				611E73FE1793168E00378B4E /* XYAppDelegate.h */,
 				611E73FF1793168E00378B4E /* XYAppDelegate.m */,
-				611E73F61793168E00378B4E /* Supporting Files */,
 				611E740C17931AFB00378B4E /* XYFirstLevelController.h */,
 				611E740D17931AFB00378B4E /* XYFirstLevelController.m */,
 				611E740F17931ECB00378B4E /* XYSecondLevelController.h */,
@@ -130,6 +132,9 @@
 				611E742B1796F5B600378B4E /* XYCheckListViewController.m */,
 				611E742D1798533F00378B4E /* XYRowControlsController.h */,
 				611E742E1798533F00378B4E /* XYRowControlsController.m */,
+				616AA3FC179AED3E00B958B2 /* XYMoveMeController.h */,
+				616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */,
+				611E73F61793168E00378B4E /* Supporting Files */,
 			);
 			path = Nav;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				611E742717959E2000378B4E /* XYDisclosureDetailController.m in Sources */,
 				611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */,
 				611E742F1798534000378B4E /* XYRowControlsController.m in Sources */,
+				616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +359,7 @@
 				611E740B1793168E00378B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

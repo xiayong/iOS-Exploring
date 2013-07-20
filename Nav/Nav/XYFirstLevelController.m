@@ -11,6 +11,7 @@
 #import "XYDisclosureButtonViewController.h"
 #import "XYCheckListViewController.h"
 #import "XYRowControlsController.h"
+#import "XYMoveMeController.h"
 
 @interface XYFirstLevelController ()
 
@@ -57,6 +58,12 @@
     rowControlsController.title = @"Row Controls";
     rowControlsController.rowImage = [UIImage imageNamed:@"rowControlsIcon.png"];
     [array addObject:rowControlsController];
+    
+    // Move Me
+    XYSecondLevelController *moveMeController = [[XYMoveMeController alloc] initWithStyle:UITableViewStylePlain];
+    moveMeController.title = @"Move Me";
+    moveMeController.rowImage = [UIImage imageNamed:@"moveMeIcon.png"];
+    [array addObject:moveMeController];
     
     self.controllers = array;
 }
