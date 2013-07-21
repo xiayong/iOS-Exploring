@@ -31,6 +31,8 @@
 		611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611E74281795A06D00378B4E /* XYDisclosureDetail.xib */; };
 		611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742B1796F5B600378B4E /* XYCheckListViewController.m */; };
 		611E742F1798534000378B4E /* XYRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742E1798533F00378B4E /* XYRowControlsController.m */; };
+		61645994179C4DC400997C73 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61645993179C4DC400997C73 /* computers.plist */; };
+		61645997179C4DE500997C73 /* XYDeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61645996179C4DE500997C73 /* XYDeleteMeController.m */; };
 		616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,9 @@
 		611E742B1796F5B600378B4E /* XYCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCheckListViewController.m; sourceTree = "<group>"; };
 		611E742D1798533F00378B4E /* XYRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRowControlsController.h; sourceTree = "<group>"; };
 		611E742E1798533F00378B4E /* XYRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRowControlsController.m; sourceTree = "<group>"; };
+		61645993179C4DC400997C73 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		61645995179C4DE500997C73 /* XYDeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDeleteMeController.h; sourceTree = "<group>"; };
+		61645996179C4DE500997C73 /* XYDeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDeleteMeController.m; sourceTree = "<group>"; };
 		616AA3FC179AED3E00B958B2 /* XYMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMoveMeController.h; sourceTree = "<group>"; };
 		616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMoveMeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +139,8 @@
 				611E742E1798533F00378B4E /* XYRowControlsController.m */,
 				616AA3FC179AED3E00B958B2 /* XYMoveMeController.h */,
 				616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */,
+				61645995179C4DE500997C73 /* XYDeleteMeController.h */,
+				61645996179C4DE500997C73 /* XYDeleteMeController.m */,
 				611E73F61793168E00378B4E /* Supporting Files */,
 			);
 			path = Nav;
@@ -142,6 +149,7 @@
 		611E73F61793168E00378B4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61645993179C4DC400997C73 /* computers.plist */,
 				611E741217959D3100378B4E /* button_down.png */,
 				611E741317959D3100378B4E /* button_up.png */,
 				611E741417959D3100378B4E /* checkmarkControllerIcon.png */,
@@ -226,6 +234,7 @@
 				611E742017959D3100378B4E /* moveMeIcon.png in Resources */,
 				611E742117959D3100378B4E /* rowControlsIcon.png in Resources */,
 				611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */,
+				61645994179C4DC400997C73 /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +254,7 @@
 				611E742C1796F5B700378B4E /* XYCheckListViewController.m in Sources */,
 				611E742F1798534000378B4E /* XYRowControlsController.m in Sources */,
 				616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */,
+				61645997179C4DE500997C73 /* XYDeleteMeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

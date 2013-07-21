@@ -12,6 +12,7 @@
 #import "XYCheckListViewController.h"
 #import "XYRowControlsController.h"
 #import "XYMoveMeController.h"
+#import "XYDeleteMeController.h"
 
 @interface XYFirstLevelController ()
 
@@ -64,6 +65,12 @@
     moveMeController.title = @"Move Me";
     moveMeController.rowImage = [UIImage imageNamed:@"moveMeIcon.png"];
     [array addObject:moveMeController];
+    
+    // Delete Me
+    XYSecondLevelController *deleteMeController = [[XYDeleteMeController alloc] initWithStyle:UITableViewStylePlain];
+    deleteMeController.title = @"Delete Me";
+    deleteMeController.rowImage = [UIImage imageNamed:@"deleteMeIcon.png"];
+    [array addObject:deleteMeController];
     
     self.controllers = array;
 }
