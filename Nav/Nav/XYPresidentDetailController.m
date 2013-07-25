@@ -87,7 +87,37 @@
 }
 
 - (IBAction)textFieldDone:(id)sender {
-    [sender resignFirstResponder];
+    // [sender resignFirstResponder];
+    
+    // UITableViewCell的子视图是UITableViewCellContentView，UITableViewCellContentView的子视图里面才有UITextField
+    UITableViewCell *cell = (UITableViewCell *)[[sender superview] superview];
+    NSIndexPath *thisCellIndexPath = [self.tableView indexPathForCell:cell];
+    NSUInteger nextRow = [thisCellIndexPath row] + 1;
+    // 如果没有下一行了，就跳到第一行
+    //if (nextRow >= kNumberOfEditableRows)
+    //    nextRow = kNameRowIndex;
+    
+    // 我改了一下。。。
+    if (nextRow >= kNumberOfEditableRows) {
+        [sender resignFirstResponder];
+        return;
+    }
+    // 获取下一行
+    UITableViewCell *nextCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:nextRow inSection:[thisCellIndexPath section]]];
+    UITextField *nextTextField = nil;
+    // 获取到下一行的文本框
+    for (UIView *oneView in nextCell.contentView.subviews) {
+        if ([oneView isMemberOfClass:[UITextField class]]) {
+            nextTextField = (UITextField *)oneView;
+            break;
+        }
+    }
+    // 如果下一行是最后一行，则键盘的return键为Done
+    if (nextRow == kPartyIndex)
+        nextTextField.returnKeyType = UIReturnKeyDone;
+    // 让下一行行的文本框成为第一响应着
+    [nextTextField becomeFirstResponder];
+        
 }
 
 #pragma mark - Table view data source
@@ -101,7 +131,7 @@
 {
     static NSString *PresidentCellIdentifier = @"PresidentCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:PresidentCellIdentifier];
-    
+    NSUInteger row = [indexPath row];
     // Configure the cell...
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:PresidentCellIdentifier];
@@ -115,7 +145,16 @@
         textField.clearsOnBeginEditing = NO;
         [textField setDelegate:self];
         // 键盘return键的类型为Done
-        textField.returnKeyType = UIReturnKeyDone;
+        // textField.returnKeyType = UIReturnKeyDone;
+        switch (row) {
+            case kFromYearRowIndex:
+            case kToYearRowIndex:
+                textField.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+                break;
+            default:
+                break;
+        }
+        
         [textField addTarget:self action:@selector(textFieldDone:) forControlEvents:UIControlEventEditingDidEndOnExit];
         [cell.contentView addSubview:textField];
     }
@@ -124,9 +163,9 @@
     for (UIView *onView in cell.contentView.subviews) {
         if ([onView isMemberOfClass:[UITextField class]]) {
             textField = (UITextField *)onView;
+            break;
         }
     }
-    NSUInteger row = [indexPath row];
     label.text = [self.fieldLabels objectAtIndex:row];
     NSNumber *rowAsNum = [NSNumber numberWithInt:row];
     
