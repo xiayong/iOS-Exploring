@@ -205,7 +205,7 @@
 
 #pragma mark - Table view delegate
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // 不用用户选中任何一行，每一行都是由一个标签和一个文本框组成
+    // 不让用户选中任何一行，每一行都是由一个标签和一个文本框组成
     return nil;
 }
 
