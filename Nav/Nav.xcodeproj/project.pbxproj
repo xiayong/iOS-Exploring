@@ -33,6 +33,10 @@
 		611E742F1798534000378B4E /* XYRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E742E1798533F00378B4E /* XYRowControlsController.m */; };
 		61645994179C4DC400997C73 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61645993179C4DC400997C73 /* computers.plist */; };
 		61645997179C4DE500997C73 /* XYDeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61645996179C4DE500997C73 /* XYDeleteMeController.m */; };
+		6164599A179D7D7400997C73 /* BIDPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = 61645999179D7D7400997C73 /* BIDPresident.m */; };
+		6164599C179D80A100997C73 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6164599B179D80A100997C73 /* Presidents.plist */; };
+		6164599F179D810900997C73 /* XYPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6164599E179D810900997C73 /* XYPresidentsViewController.m */; };
+		616459A2179D816A00997C73 /* XYPresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616459A1179D816A00997C73 /* XYPresidentDetailController.m */; };
 		616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,13 @@
 		61645993179C4DC400997C73 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
 		61645995179C4DE500997C73 /* XYDeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDeleteMeController.h; sourceTree = "<group>"; };
 		61645996179C4DE500997C73 /* XYDeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDeleteMeController.m; sourceTree = "<group>"; };
+		61645998179D7D7400997C73 /* BIDPresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresident.h; sourceTree = "<group>"; };
+		61645999179D7D7400997C73 /* BIDPresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresident.m; sourceTree = "<group>"; };
+		6164599B179D80A100997C73 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		6164599D179D810900997C73 /* XYPresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPresidentsViewController.h; sourceTree = "<group>"; };
+		6164599E179D810900997C73 /* XYPresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPresidentsViewController.m; sourceTree = "<group>"; };
+		616459A0179D816A00997C73 /* XYPresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPresidentDetailController.h; sourceTree = "<group>"; };
+		616459A1179D816A00997C73 /* XYPresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPresidentDetailController.m; sourceTree = "<group>"; };
 		616AA3FC179AED3E00B958B2 /* XYMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMoveMeController.h; sourceTree = "<group>"; };
 		616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMoveMeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +152,12 @@
 				616AA3FD179AED3E00B958B2 /* XYMoveMeController.m */,
 				61645995179C4DE500997C73 /* XYDeleteMeController.h */,
 				61645996179C4DE500997C73 /* XYDeleteMeController.m */,
+				61645998179D7D7400997C73 /* BIDPresident.h */,
+				61645999179D7D7400997C73 /* BIDPresident.m */,
+				6164599D179D810900997C73 /* XYPresidentsViewController.h */,
+				6164599E179D810900997C73 /* XYPresidentsViewController.m */,
+				616459A0179D816A00997C73 /* XYPresidentDetailController.h */,
+				616459A1179D816A00997C73 /* XYPresidentDetailController.m */,
 				611E73F61793168E00378B4E /* Supporting Files */,
 			);
 			path = Nav;
@@ -149,6 +166,7 @@
 		611E73F61793168E00378B4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6164599B179D80A100997C73 /* Presidents.plist */,
 				61645993179C4DC400997C73 /* computers.plist */,
 				611E741217959D3100378B4E /* button_down.png */,
 				611E741317959D3100378B4E /* button_up.png */,
@@ -235,6 +253,7 @@
 				611E742117959D3100378B4E /* rowControlsIcon.png in Resources */,
 				611E74291795A06D00378B4E /* XYDisclosureDetail.xib in Resources */,
 				61645994179C4DC400997C73 /* computers.plist in Resources */,
+				6164599C179D80A100997C73 /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +274,9 @@
 				611E742F1798534000378B4E /* XYRowControlsController.m in Sources */,
 				616AA3FE179AED3E00B958B2 /* XYMoveMeController.m in Sources */,
 				61645997179C4DE500997C73 /* XYDeleteMeController.m in Sources */,
+				6164599A179D7D7400997C73 /* BIDPresident.m in Sources */,
+				6164599F179D810900997C73 /* XYPresidentsViewController.m in Sources */,
+				616459A2179D816A00997C73 /* XYPresidentDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

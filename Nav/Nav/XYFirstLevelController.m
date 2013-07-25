@@ -13,6 +13,7 @@
 #import "XYRowControlsController.h"
 #import "XYMoveMeController.h"
 #import "XYDeleteMeController.h"
+#import "XYPresidentsViewController.h"
 
 @interface XYFirstLevelController ()
 
@@ -71,6 +72,12 @@
     deleteMeController.title = @"Delete Me";
     deleteMeController.rowImage = [UIImage imageNamed:@"deleteMeIcon.png"];
     [array addObject:deleteMeController];
+    
+    // President View/Edit
+    XYSecondLevelController *presidentViewController = [[XYPresidentsViewController alloc] initWithStyle:UITableViewStylePlain];
+    presidentViewController.title = @"Detail Edit";
+    presidentViewController.rowImage = [UIImage imageNamed:@"detailEditIcon.png"];
+    [array addObject:presidentViewController];
     
     self.controllers = array;
 }
