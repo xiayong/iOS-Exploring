@@ -18,6 +18,7 @@
 		61133A2017A685AB003D1BC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A1F17A685AB003D1BC0 /* Default-568h@2x.png */; };
 		61133A2317A685AB003D1BC0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61133A2117A685AB003D1BC0 /* MainStoryboard.storyboard */; };
 		61133A2617A685AB003D1BC0 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A2517A685AB003D1BC0 /* XYViewController.m */; };
+		61133A2E17A68AFA003D1BC0 /* XYTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		61133A2217A685AB003D1BC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		61133A2417A685AB003D1BC0 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
 		61133A2517A685AB003D1BC0 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		61133A2C17A68AFA003D1BC0 /* XYTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTaskListController.h; sourceTree = "<group>"; };
+		61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTaskListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				61133A2417A685AB003D1BC0 /* XYViewController.h */,
 				61133A2517A685AB003D1BC0 /* XYViewController.m */,
 				61133A1017A685AB003D1BC0 /* Supporting Files */,
+				61133A2C17A68AFA003D1BC0 /* XYTaskListController.h */,
+				61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */,
 			);
 			path = "Simple Storyboards";
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				61133A1617A685AB003D1BC0 /* main.m in Sources */,
 				61133A1A17A685AB003D1BC0 /* XYAppDelegate.m in Sources */,
 				61133A2617A685AB003D1BC0 /* XYViewController.m in Sources */,
+				61133A2E17A68AFA003D1BC0 /* XYTaskListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
