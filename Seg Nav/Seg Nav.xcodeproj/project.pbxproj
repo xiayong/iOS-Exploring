@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61133A3F17A825D7003D1BC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61133A3E17A825D7003D1BC0 /* UIKit.framework */; };
+		61133A4117A825D7003D1BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61133A4017A825D7003D1BC0 /* Foundation.framework */; };
+		61133A4317A825D7003D1BC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61133A4217A825D7003D1BC0 /* CoreGraphics.framework */; };
+		61133A4917A825D7003D1BC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61133A4717A825D7003D1BC0 /* InfoPlist.strings */; };
+		61133A4B17A825D7003D1BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A4A17A825D7003D1BC0 /* main.m */; };
+		61133A4F17A825D7003D1BC0 /* XYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A4E17A825D7003D1BC0 /* XYAppDelegate.m */; };
+		61133A5117A825D7003D1BC0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5017A825D7003D1BC0 /* Default.png */; };
+		61133A5317A825D7003D1BC0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5217A825D7003D1BC0 /* Default@2x.png */; };
+		61133A5517A825D7003D1BC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5417A825D7003D1BC0 /* Default-568h@2x.png */; };
+		61133A5C17A825F5003D1BC0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61133A3B17A825D7003D1BC0 /* Seg Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seg Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61133A3E17A825D7003D1BC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61133A4017A825D7003D1BC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61133A4217A825D7003D1BC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61133A4617A825D7003D1BC0 /* Seg Nav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Seg Nav-Info.plist"; sourceTree = "<group>"; };
+		61133A4817A825D7003D1BC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61133A4A17A825D7003D1BC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61133A4C17A825D7003D1BC0 /* Seg Nav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seg Nav-Prefix.pch"; sourceTree = "<group>"; };
+		61133A4D17A825D7003D1BC0 /* XYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAppDelegate.h; sourceTree = "<group>"; };
+		61133A4E17A825D7003D1BC0 /* XYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAppDelegate.m; sourceTree = "<group>"; };
+		61133A5017A825D7003D1BC0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		61133A5217A825D7003D1BC0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		61133A5417A825D7003D1BC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61133A3817A825D7003D1BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61133A3F17A825D7003D1BC0 /* UIKit.framework in Frameworks */,
+				61133A4117A825D7003D1BC0 /* Foundation.framework in Frameworks */,
+				61133A4317A825D7003D1BC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61133A3217A825D7003D1BC0 = {
+			isa = PBXGroup;
+			children = (
+				61133A4417A825D7003D1BC0 /* Seg Nav */,
+				61133A3D17A825D7003D1BC0 /* Frameworks */,
+				61133A3C17A825D7003D1BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61133A3C17A825D7003D1BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61133A3B17A825D7003D1BC0 /* Seg Nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61133A3D17A825D7003D1BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61133A3E17A825D7003D1BC0 /* UIKit.framework */,
+				61133A4017A825D7003D1BC0 /* Foundation.framework */,
+				61133A4217A825D7003D1BC0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61133A4417A825D7003D1BC0 /* Seg Nav */ = {
+			isa = PBXGroup;
+			children = (
+				61133A4D17A825D7003D1BC0 /* XYAppDelegate.h */,
+				61133A4E17A825D7003D1BC0 /* XYAppDelegate.m */,
+				61133A4517A825D7003D1BC0 /* Supporting Files */,
+				61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */,
+			);
+			path = "Seg Nav";
+			sourceTree = "<group>";
+		};
+		61133A4517A825D7003D1BC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61133A4617A825D7003D1BC0 /* Seg Nav-Info.plist */,
+				61133A4717A825D7003D1BC0 /* InfoPlist.strings */,
+				61133A4A17A825D7003D1BC0 /* main.m */,
+				61133A4C17A825D7003D1BC0 /* Seg Nav-Prefix.pch */,
+				61133A5017A825D7003D1BC0 /* Default.png */,
+				61133A5217A825D7003D1BC0 /* Default@2x.png */,
+				61133A5417A825D7003D1BC0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61133A3A17A825D7003D1BC0 /* Seg Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61133A5817A825D7003D1BC0 /* Build configuration list for PBXNativeTarget "Seg Nav" */;
+			buildPhases = (
+				61133A3717A825D7003D1BC0 /* Sources */,
+				61133A3817A825D7003D1BC0 /* Frameworks */,
+				61133A3917A825D7003D1BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seg Nav";
+			productName = "Seg Nav";
+			productReference = 61133A3B17A825D7003D1BC0 /* Seg Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61133A3317A825D7003D1BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XY;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Xia Yong";
+			};
+			buildConfigurationList = 61133A3617A825D7003D1BC0 /* Build configuration list for PBXProject "Seg Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61133A3217A825D7003D1BC0;
+			productRefGroup = 61133A3C17A825D7003D1BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61133A3A17A825D7003D1BC0 /* Seg Nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61133A3917A825D7003D1BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61133A4917A825D7003D1BC0 /* InfoPlist.strings in Resources */,
+				61133A5117A825D7003D1BC0 /* Default.png in Resources */,
+				61133A5317A825D7003D1BC0 /* Default@2x.png in Resources */,
+				61133A5517A825D7003D1BC0 /* Default-568h@2x.png in Resources */,
+				61133A5C17A825F5003D1BC0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61133A3717A825D7003D1BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61133A4B17A825D7003D1BC0 /* main.m in Sources */,
+				61133A4F17A825D7003D1BC0 /* XYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61133A4717A825D7003D1BC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61133A4817A825D7003D1BC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61133A5617A825D7003D1BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61133A5717A825D7003D1BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61133A5917A825D7003D1BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seg Nav/Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "Seg Nav/Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61133A5A17A825D7003D1BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Seg Nav/Seg Nav-Prefix.pch";
+				INFOPLIST_FILE = "Seg Nav/Seg Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61133A3617A825D7003D1BC0 /* Build configuration list for PBXProject "Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61133A5617A825D7003D1BC0 /* Debug */,
+				61133A5717A825D7003D1BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61133A5817A825D7003D1BC0 /* Build configuration list for PBXNativeTarget "Seg Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61133A5917A825D7003D1BC0 /* Debug */,
+				61133A5A17A825D7003D1BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61133A3317A825D7003D1BC0 /* Project object */;
+}
