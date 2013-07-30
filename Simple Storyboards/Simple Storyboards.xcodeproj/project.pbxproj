@@ -19,6 +19,7 @@
 		61133A2317A685AB003D1BC0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61133A2117A685AB003D1BC0 /* MainStoryboard.storyboard */; };
 		61133A2617A685AB003D1BC0 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A2517A685AB003D1BC0 /* XYViewController.m */; };
 		61133A2E17A68AFA003D1BC0 /* XYTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */; };
+		61133A3117A8159B003D1BC0 /* XYStaticCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A3017A8159B003D1BC0 /* XYStaticCellsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		61133A2517A685AB003D1BC0 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
 		61133A2C17A68AFA003D1BC0 /* XYTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTaskListController.h; sourceTree = "<group>"; };
 		61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTaskListController.m; sourceTree = "<group>"; };
+		61133A2F17A8159B003D1BC0 /* XYStaticCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYStaticCellsController.h; sourceTree = "<group>"; };
+		61133A3017A8159B003D1BC0 /* XYStaticCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStaticCellsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +94,11 @@
 				61133A2117A685AB003D1BC0 /* MainStoryboard.storyboard */,
 				61133A2417A685AB003D1BC0 /* XYViewController.h */,
 				61133A2517A685AB003D1BC0 /* XYViewController.m */,
-				61133A1017A685AB003D1BC0 /* Supporting Files */,
 				61133A2C17A68AFA003D1BC0 /* XYTaskListController.h */,
 				61133A2D17A68AFA003D1BC0 /* XYTaskListController.m */,
+				61133A2F17A8159B003D1BC0 /* XYStaticCellsController.h */,
+				61133A3017A8159B003D1BC0 /* XYStaticCellsController.m */,
+				61133A1017A685AB003D1BC0 /* Supporting Files */,
 			);
 			path = "Simple Storyboards";
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				61133A1A17A685AB003D1BC0 /* XYAppDelegate.m in Sources */,
 				61133A2617A685AB003D1BC0 /* XYViewController.m in Sources */,
 				61133A2E17A68AFA003D1BC0 /* XYTaskListController.m in Sources */,
+				61133A3117A8159B003D1BC0 /* XYStaticCellsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				61133A2B17A685AB003D1BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
