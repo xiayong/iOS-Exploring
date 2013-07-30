@@ -17,6 +17,8 @@
 		61133A5317A825D7003D1BC0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5217A825D7003D1BC0 /* Default@2x.png */; };
 		61133A5517A825D7003D1BC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5417A825D7003D1BC0 /* Default-568h@2x.png */; };
 		61133A5C17A825F5003D1BC0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */; };
+		61133A6117A82BC2003D1BC0 /* XYTaskDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61133A6017A82BC2003D1BC0 /* XYTaskDetailController.m */; };
+		61C3056F17A836B70025015C /* XYTaskListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C3056E17A836B70025015C /* XYTaskListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		61133A5217A825D7003D1BC0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61133A5417A825D7003D1BC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		61133A5F17A82BC2003D1BC0 /* XYTaskDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTaskDetailController.h; sourceTree = "<group>"; };
+		61133A6017A82BC2003D1BC0 /* XYTaskDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTaskDetailController.m; sourceTree = "<group>"; };
+		61C3056D17A836B70025015C /* XYTaskListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTaskListController.h; sourceTree = "<group>"; };
+		61C3056E17A836B70025015C /* XYTaskListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTaskListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +88,12 @@
 			children = (
 				61133A4D17A825D7003D1BC0 /* XYAppDelegate.h */,
 				61133A4E17A825D7003D1BC0 /* XYAppDelegate.m */,
-				61133A4517A825D7003D1BC0 /* Supporting Files */,
 				61133A5B17A825F5003D1BC0 /* MainStoryboard.storyboard */,
+				61C3056D17A836B70025015C /* XYTaskListController.h */,
+				61C3056E17A836B70025015C /* XYTaskListController.m */,
+				61133A5F17A82BC2003D1BC0 /* XYTaskDetailController.h */,
+				61133A6017A82BC2003D1BC0 /* XYTaskDetailController.m */,
+				61133A4517A825D7003D1BC0 /* Supporting Files */,
 			);
 			path = "Seg Nav";
 			sourceTree = "<group>";
@@ -171,6 +181,8 @@
 			files = (
 				61133A4B17A825D7003D1BC0 /* main.m in Sources */,
 				61133A4F17A825D7003D1BC0 /* XYAppDelegate.m in Sources */,
+				61133A6117A82BC2003D1BC0 /* XYTaskDetailController.m in Sources */,
+				61C3056F17A836B70025015C /* XYTaskListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				61133A5A17A825D7003D1BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
