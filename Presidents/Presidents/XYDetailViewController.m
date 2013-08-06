@@ -7,6 +7,17 @@
 //
 
 #import "XYDetailViewController.h"
+#import "XYLanguageListController.h"
+
+static NSString * modifyUrlForLanguage(NSString *url, NSString *lang) {
+    if (!lang)
+        return url;
+    NSRange languageCodeRange = NSMakeRange(7, 2);
+    if ([[url substringWithRange:languageCodeRange] isEqualToString:lang])
+        return url;
+    else
+        return [url stringByReplacingCharactersInRange:languageCodeRange withString:lang];
+}
 
 @interface XYDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -15,18 +26,45 @@
 
 @implementation XYDetailViewController
 
+- (void)setLanguage:(NSString *)language {
+    if (![language isEqualToString:_language]) {
+        _language = [language copy];
+        self.detailItem = modifyUrlForLanguage(self.detailItem, language);
+    }
+    if (self.languagePopoverController) {
+        // 让弹出视图消失
+        [self.languagePopoverController dismissPopoverAnimated:YES];
+        self.languagePopoverController = nil;
+    }
+}
+
+- (IBAction)touchLanguageButton {
+    if (!self.languagePopoverController) {
+        // 弹出视图不存在则创建弹出视图
+        XYLanguageListController *languageListController = [[XYLanguageListController alloc] init];
+        languageListController.detailViewController = self;
+        UIPopoverController * poc = [[UIPopoverController alloc] initWithContentViewController:languageListController];
+        [poc presentPopoverFromBarButtonItem:self.languageButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        self.languagePopoverController = poc;
+    } else {
+        [self.languagePopoverController dismissPopoverAnimated:YES];
+        self.languagePopoverController = nil;
+    }
+}
+
 #pragma mark - Managing the detail item
 
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+        //_detailItem = newDetailItem;
+        _detailItem = modifyUrlForLanguage(newDetailItem, self.language);
         
         // Update the view.
         [self configureView];
     }
 
-    if (self.masterPopoverController != nil) {
+    if (self.masterPopoverController) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
     }        
 }
@@ -48,6 +86,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.languageButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Choose Language" style:UIBarButtonItemStyleDone target:self action:@selector(touchLanguageButton)];
+    self.navigationItem.rightBarButtonItem = self.languageButtonItem;
+    
+    
     [self configureView];
 }
 

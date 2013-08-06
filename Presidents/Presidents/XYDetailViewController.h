@@ -13,7 +13,11 @@
 @property (strong, nonatomic) id detailItem;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (copy, nonatomic) NSString *language;
+@property (strong, nonatomic) UIBarButtonItem *languageButtonItem;
+@property (strong, nonatomic) UIPopoverController *languagePopoverController;
+
+- (IBAction)touchLanguageButton;
 
 @end
