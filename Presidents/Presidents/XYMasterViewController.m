@@ -28,10 +28,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"PresidentList" ofType:@"plist"];
+    NSDictionary *presidentsInfo = [NSDictionary dictionaryWithContentsOfFile:path];
+    _objects = [presidentsInfo objectForKey:@"presidents"];
+    
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    //UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    //self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (XYDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
@@ -65,10 +70,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    static NSString *MasterListCell = @"Master List Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MasterListCell forIndexPath:indexPath];
+    NSDictionary *president = _objects[indexPath.row];
+    cell.textLabel.text = [president objectForKey:@"name"];
     return cell;
 }
 
@@ -106,8 +111,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDate *object = _objects[indexPath.row];
-    self.detailViewController.detailItem = object;
+    NSDictionary *president = _objects[indexPath.row];
+    self.detailViewController.detailItem = [president objectForKey:@"url"];
 }
 
 @end

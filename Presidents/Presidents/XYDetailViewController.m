@@ -34,6 +34,10 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
+    
+    NSURL *url = [NSURL URLWithString:self.detailItem];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
@@ -57,7 +61,8 @@
 
 - (void)splitViewController:(UISplitViewController *)splitController willHideViewController:(UIViewController *)viewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)popoverController
 {
-    barButtonItem.title = NSLocalizedString(@"Master", @"Master");
+    //barButtonItem.title = NSLocalizedString(@"Master", @"Master");
+    barButtonItem.title = NSLocalizedString(@"Presidents", @"Presidents");
     [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.masterPopoverController = popoverController;
 }
