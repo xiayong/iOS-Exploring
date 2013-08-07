@@ -63,12 +63,12 @@
 			<string>SMTP</string>
 		</dict>
 		<dict>
+			<key>Key</key>
+			<string>warp</string>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
 			<string>Warp Drive</string>
-			<key>Key</key>
-			<string>warp</string>
 			<key>DefaultValue</key>
 			<true/>
 		</dict>
@@ -86,7 +86,7 @@
 			<key>Type</key>
 			<string>PSSliderSpecifier</string>
 			<key>Key</key>
-			<string>wapFactor</string>
+			<string>warpFactor</string>
 			<key>DefaultValue</key>
 			<integer>5</integer>
 			<key>MinimumValue</key>

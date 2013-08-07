@@ -19,5 +19,9 @@
 @property (weak, nonatomic) id <XYFlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *engineSwitch;
+@property (weak, nonatomic) IBOutlet UISlider *warpFactorSlider;
+- (IBAction)switchValueChanged:(UISwitch *)sender;
+- (IBAction)sliderValueChanged:(UISlider *)sender;
 
 @end

@@ -7,12 +7,18 @@
 //
 
 #import "XYAppDelegate.h"
+#import "XYMainViewController.h"
 
 @implementation XYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // 让程序获取用户首选项中的默认值
+    NSDictionary *defaults = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], kWarpDriveKey, [NSNumber numberWithInt:5], kWarpFactorKey, @"Greed", kFavoriteSinKey, nil];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
+    
     return YES;
 }
 							
