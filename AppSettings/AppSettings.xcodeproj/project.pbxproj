@@ -19,6 +19,10 @@
 		617DE84917B24ECF00FA58E5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617DE84717B24ECF00FA58E5 /* MainStoryboard.storyboard */; };
 		617DE84C17B24ECF00FA58E5 /* XYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617DE84B17B24ECF00FA58E5 /* XYMainViewController.m */; };
 		617DE84F17B24ECF00FA58E5 /* XYFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617DE84E17B24ECF00FA58E5 /* XYFlipsideViewController.m */; };
+		617DE85617B2636600FA58E5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 617DE85517B2636600FA58E5 /* Settings.bundle */; };
+		617DE85817B26EE800FA58E5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 617DE85717B26EE800FA58E5 /* icon.png */; };
+		617DE85D17B28AF200FA58E5 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 617DE85B17B28AF200FA58E5 /* rabbit.png */; };
+		617DE85E17B28AF200FA58E5 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 617DE85C17B28AF200FA58E5 /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		617DE84B17B24ECF00FA58E5 /* XYMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYMainViewController.m; sourceTree = "<group>"; };
 		617DE84D17B24ECF00FA58E5 /* XYFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFlipsideViewController.h; sourceTree = "<group>"; };
 		617DE84E17B24ECF00FA58E5 /* XYFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFlipsideViewController.m; sourceTree = "<group>"; };
+		617DE85517B2636600FA58E5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		617DE85717B26EE800FA58E5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		617DE85B17B28AF200FA58E5 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		617DE85C17B28AF200FA58E5 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 				617DE84B17B24ECF00FA58E5 /* XYMainViewController.m */,
 				617DE84D17B24ECF00FA58E5 /* XYFlipsideViewController.h */,
 				617DE84E17B24ECF00FA58E5 /* XYFlipsideViewController.m */,
+				617DE85517B2636600FA58E5 /* Settings.bundle */,
 				617DE83617B24ECF00FA58E5 /* Supporting Files */,
 			);
 			path = AppSettings;
@@ -101,6 +110,9 @@
 		617DE83617B24ECF00FA58E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				617DE85717B26EE800FA58E5 /* icon.png */,
+				617DE85B17B28AF200FA58E5 /* rabbit.png */,
+				617DE85C17B28AF200FA58E5 /* turtle.png */,
 				617DE83717B24ECF00FA58E5 /* AppSettings-Info.plist */,
 				617DE83817B24ECF00FA58E5 /* InfoPlist.strings */,
 				617DE83B17B24ECF00FA58E5 /* main.m */,
@@ -169,6 +181,10 @@
 				617DE84417B24ECF00FA58E5 /* Default@2x.png in Resources */,
 				617DE84617B24ECF00FA58E5 /* Default-568h@2x.png in Resources */,
 				617DE84917B24ECF00FA58E5 /* MainStoryboard.storyboard in Resources */,
+				617DE85617B2636600FA58E5 /* Settings.bundle in Resources */,
+				617DE85817B26EE800FA58E5 /* icon.png in Resources */,
+				617DE85D17B28AF200FA58E5 /* rabbit.png in Resources */,
+				617DE85E17B28AF200FA58E5 /* turtle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
