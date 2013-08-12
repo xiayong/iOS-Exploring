@@ -10,4 +10,9 @@
 
 @interface XYViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *field1;
+@property (weak, nonatomic) IBOutlet UITextField *field2;
+@property (weak, nonatomic) IBOutlet UITextField *field3;
+@property (weak, nonatomic) IBOutlet UITextField *field4;
+
 @end
