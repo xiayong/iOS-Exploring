@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6155380217B94A02000370FF /* XYFourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 6155380117B94A02000370FF /* XYFourLines.m */; };
 		617DE86C17B406CC00FA58E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86B17B406CC00FA58E5 /* UIKit.framework */; };
 		617DE86E17B406CC00FA58E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86D17B406CC00FA58E5 /* Foundation.framework */; };
 		617DE87017B406CC00FA58E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86F17B406CC00FA58E5 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6155380017B94A02000370FF /* XYFourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFourLines.h; sourceTree = "<group>"; };
+		6155380117B94A02000370FF /* XYFourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFourLines.m; sourceTree = "<group>"; };
 		617DE86817B406CC00FA58E5 /* Persistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617DE86B17B406CC00FA58E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		617DE86D17B406CC00FA58E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,8 @@
 				617DE88317B406CC00FA58E5 /* MainStoryboard.storyboard */,
 				617DE88617B406CC00FA58E5 /* XYViewController.h */,
 				617DE88717B406CC00FA58E5 /* XYViewController.m */,
+				6155380017B94A02000370FF /* XYFourLines.h */,
+				6155380117B94A02000370FF /* XYFourLines.m */,
 				617DE87217B406CC00FA58E5 /* Supporting Files */,
 			);
 			path = Persistance;
@@ -177,6 +182,7 @@
 				617DE87817B406CC00FA58E5 /* main.m in Sources */,
 				617DE87C17B406CC00FA58E5 /* XYAppDelegate.m in Sources */,
 				617DE88817B406CC00FA58E5 /* XYViewController.m in Sources */,
+				6155380217B94A02000370FF /* XYFourLines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				617DE88D17B406CC00FA58E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
