@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6155380217B94A02000370FF /* XYFourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 6155380117B94A02000370FF /* XYFourLines.m */; };
+		6155380417BA74A0000370FF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6155380317BA74A0000370FF /* libsqlite3.dylib */; };
 		617DE86C17B406CC00FA58E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86B17B406CC00FA58E5 /* UIKit.framework */; };
 		617DE86E17B406CC00FA58E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86D17B406CC00FA58E5 /* Foundation.framework */; };
 		617DE87017B406CC00FA58E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617DE86F17B406CC00FA58E5 /* CoreGraphics.framework */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		6155380017B94A02000370FF /* XYFourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYFourLines.h; sourceTree = "<group>"; };
 		6155380117B94A02000370FF /* XYFourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYFourLines.m; sourceTree = "<group>"; };
+		6155380317BA74A0000370FF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		617DE86817B406CC00FA58E5 /* Persistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		617DE86B17B406CC00FA58E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		617DE86D17B406CC00FA58E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6155380417BA74A0000370FF /* libsqlite3.dylib in Frameworks */,
 				617DE86C17B406CC00FA58E5 /* UIKit.framework in Frameworks */,
 				617DE86E17B406CC00FA58E5 /* Foundation.framework in Frameworks */,
 				617DE87017B406CC00FA58E5 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +79,7 @@
 		617DE86A17B406CC00FA58E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6155380317BA74A0000370FF /* libsqlite3.dylib */,
 				617DE86B17B406CC00FA58E5 /* UIKit.framework */,
 				617DE86D17B406CC00FA58E5 /* Foundation.framework */,
 				617DE86F17B406CC00FA58E5 /* CoreGraphics.framework */,
