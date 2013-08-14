@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Core Data Presistance/Core Data Presistance.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Persistance/Persistance.xcodeproj">
    </FileRef>
    <FileRef
