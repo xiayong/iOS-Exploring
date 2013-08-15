@@ -7,6 +7,11 @@
 //
 
 #import "XYAppDelegate.h"
+#import "XYViewController.h"
+
+@interface XYAppDelegate()
+@property (strong, nonatomic) XYViewController *rootViewController;
+@end
 
 @implementation XYAppDelegate
 
@@ -18,6 +23,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    self.rootViewController = [[XYViewController alloc] initWithNibName:@"XYViewController" bundle:nil];
+    UIView *rootView = self.rootViewController.view;
+    CGRect viewFrame = rootView.frame;
+    viewFrame.origin.y += [UIApplication sharedApplication].statusBarFrame.size.height;
+    rootView.frame = viewFrame;
+    [self.window addSubview:rootView];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

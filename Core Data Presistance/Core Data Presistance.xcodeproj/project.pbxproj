@@ -18,6 +18,8 @@
 		6155382817BB7BF5000370FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6155382717BB7BF5000370FF /* Default@2x.png */; };
 		6155382A17BB7BF5000370FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6155382917BB7BF5000370FF /* Default-568h@2x.png */; };
 		6155382D17BB7BF5000370FF /* Core_Data_Presistance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6155382B17BB7BF5000370FF /* Core_Data_Presistance.xcdatamodeld */; };
+		6155383917BD3599000370FF /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6155383717BD3599000370FF /* XYViewController.m */; };
+		6155383A17BD3599000370FF /* XYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6155383817BD3599000370FF /* XYViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		6155382717BB7BF5000370FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6155382917BB7BF5000370FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6155382C17BB7BF5000370FF /* Core_Data_Presistance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Presistance.xcdatamodel; sourceTree = "<group>"; };
+		6155383617BD3599000370FF /* XYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		6155383717BD3599000370FF /* XYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		6155383817BD3599000370FF /* XYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,9 @@
 				6155382217BB7BF5000370FF /* XYAppDelegate.h */,
 				6155382317BB7BF5000370FF /* XYAppDelegate.m */,
 				6155382B17BB7BF5000370FF /* Core_Data_Presistance.xcdatamodeld */,
+				6155383617BD3599000370FF /* XYViewController.h */,
+				6155383717BD3599000370FF /* XYViewController.m */,
+				6155383817BD3599000370FF /* XYViewController.xib */,
 				6155381A17BB7BF5000370FF /* Supporting Files */,
 			);
 			path = "Core Data Presistance";
@@ -162,6 +170,7 @@
 				6155382617BB7BF5000370FF /* Default.png in Resources */,
 				6155382817BB7BF5000370FF /* Default@2x.png in Resources */,
 				6155382A17BB7BF5000370FF /* Default-568h@2x.png in Resources */,
+				6155383A17BD3599000370FF /* XYViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +184,7 @@
 				6155382017BB7BF5000370FF /* main.m in Sources */,
 				6155382417BB7BF5000370FF /* XYAppDelegate.m in Sources */,
 				6155382D17BB7BF5000370FF /* Core_Data_Presistance.xcdatamodeld in Sources */,
+				6155383917BD3599000370FF /* XYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
