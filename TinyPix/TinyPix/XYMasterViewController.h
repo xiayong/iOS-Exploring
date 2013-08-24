@@ -10,4 +10,8 @@
 
 @interface XYMasterViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *colorControl;
+
+- (IBAction)chooseColor:(UISegmentedControl *)sender;
+
 @end
