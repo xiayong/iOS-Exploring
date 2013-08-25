@@ -20,6 +20,7 @@
 		6153080117C50D3600307F84 /* XYMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153080017C50D3600307F84 /* XYMasterViewController.m */; };
 		6153080417C50D3600307F84 /* XYDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153080317C50D3600307F84 /* XYDetailViewController.m */; };
 		6153080C17C50FA800307F84 /* XYTinyPixDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153080B17C50FA800307F84 /* XYTinyPixDocument.m */; };
+		6153080F17C92DB200307F84 /* XYTinyPixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6153080E17C92DB200307F84 /* XYTinyPixView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		6153080317C50D3600307F84 /* XYDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYDetailViewController.m; sourceTree = "<group>"; };
 		6153080A17C50FA800307F84 /* XYTinyPixDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTinyPixDocument.h; sourceTree = "<group>"; };
 		6153080B17C50FA800307F84 /* XYTinyPixDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTinyPixDocument.m; sourceTree = "<group>"; };
+		6153080D17C92DB200307F84 /* XYTinyPixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTinyPixView.h; sourceTree = "<group>"; };
+		6153080E17C92DB200307F84 /* XYTinyPixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTinyPixView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				6153080317C50D3600307F84 /* XYDetailViewController.m */,
 				6153080A17C50FA800307F84 /* XYTinyPixDocument.h */,
 				6153080B17C50FA800307F84 /* XYTinyPixDocument.m */,
+				6153080D17C92DB200307F84 /* XYTinyPixView.h */,
+				6153080E17C92DB200307F84 /* XYTinyPixView.m */,
 				615307EB17C50D3500307F84 /* Supporting Files */,
 			);
 			path = TinyPix;
@@ -189,6 +194,7 @@
 				6153080117C50D3600307F84 /* XYMasterViewController.m in Sources */,
 				6153080417C50D3600307F84 /* XYDetailViewController.m in Sources */,
 				6153080C17C50FA800307F84 /* XYTinyPixDocument.m in Sources */,
+				6153080F17C92DB200307F84 /* XYTinyPixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
