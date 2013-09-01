@@ -65,4 +65,9 @@
     return 65;
 }
 
+- (IBAction)doWork:(UIButton *)sender {
+}
+
+- (IBAction)doWork:(UIButton *)sender {
+}
 @end
