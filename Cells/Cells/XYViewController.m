@@ -68,6 +68,4 @@
 - (IBAction)doWork:(UIButton *)sender {
 }
 
-- (IBAction)doWork:(UIButton *)sender {
-}
 @end
