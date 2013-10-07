@@ -13,5 +13,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *startButton;
 @property (strong, nonatomic) IBOutlet UITextView *resultsTextView;
 - (IBAction)doWork:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 @end
