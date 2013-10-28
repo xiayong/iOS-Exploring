@@ -12,6 +12,7 @@
 
 - (void)rotatleLabelUp;
 - (void)rotatleLabelDown;
+@property (assign, nonatomic) BOOL animate;
 
 @end
 
@@ -21,6 +22,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 从活动状态切换到不活动状态
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillResignActive) name:UIApplicationWillResignActiveNotification object:[UIApplication sharedApplication]];
+    // 从不活动状态切换到活动状态
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:UIApplicationDidBecomeActiveNotification object:[UIApplication sharedApplication]];
+    
     
     static NSString *lableText = @"Bazinga!";
     UIFont *lableFont = [UIFont fontWithName:@"Helvetica" size:70];
@@ -37,7 +44,7 @@
     self.label.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.label];
     
-    [self rotatleLabelDown];
+    //[self rotatleLabelDown];
 }
 
 - (void)rotatleLabelUp {
@@ -47,8 +54,9 @@
         // 将label的旋转角度恢复
         self.label.transform = CGAffineTransformMakeRotation(0);
     } completion:^(BOOL finished) {
-        // 继续旋转
-        [self rotatleLabelDown];
+        if (self.animate)
+            // 继续旋转
+            [self rotatleLabelDown];
     }];
 }
 
@@ -60,6 +68,18 @@
         [self rotatleLabelUp];
     }];
 }
+
+- (void)applicationWillResignActive {
+    NSLog(@"VC: %@", NSStringFromSelector(_cmd));
+    self.animate = NO;
+}
+
+- (void)applicationDidBecomeActive {
+    NSLog(@"VC: %@", NSStringFromSelector(_cmd));
+    self.animate = YES;
+    [self rotatleLabelDown];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
