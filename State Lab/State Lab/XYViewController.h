@@ -10,5 +10,8 @@
 
 @interface XYViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) UIImage *smiley;
+@property (strong, nonatomic) UIImageView *smileyView;
+@property (strong, nonatomic) UISegmentedControl *segmentedControl;
 
 @end

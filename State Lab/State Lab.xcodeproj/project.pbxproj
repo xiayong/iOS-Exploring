@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6130FEB8181EE78300A8698A /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 6130FEB7181EE78300A8698A /* smiley.png */; };
 		61D701F8180855DB00A106DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D701F7180855DB00A106DA /* Foundation.framework */; };
 		61D701FA180855DB00A106DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D701F9180855DB00A106DA /* CoreGraphics.framework */; };
 		61D701FC180855DB00A106DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D701FB180855DB00A106DA /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6130FEB7181EE78300A8698A /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
 		61D701F4180855DB00A106DA /* State Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D701F7180855DB00A106DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61D701F9180855DB00A106DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +128,7 @@
 		61D701FE180855DB00A106DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6130FEB7181EE78300A8698A /* smiley.png */,
 				61D701FF180855DB00A106DA /* State Lab-Info.plist */,
 				61D70200180855DB00A106DA /* InfoPlist.strings */,
 				61D70203180855DB00A106DA /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6130FEB8181EE78300A8698A /* smiley.png in Resources */,
 				61D70210180855DC00A106DA /* Images.xcassets in Resources */,
 				61D70202180855DB00A106DA /* InfoPlist.strings in Resources */,
 				61D7020B180855DB00A106DA /* Main.storyboard in Resources */,
