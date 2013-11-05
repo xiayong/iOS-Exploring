@@ -13,5 +13,4 @@
 @property (strong, nonatomic) NSArray *listData;
 
 - (IBAction)doWork:(UIButton *)sender;
-- (IBAction)doWork:(UIButton *)sender;
 @end
