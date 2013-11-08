@@ -17,5 +17,7 @@
 @property (nonatomic) ShapeType shapeType;
 @property (strong, nonatomic) UIImage *drawImage;
 @property (nonatomic) BOOL useRandomColor;
+@property (readonly) CGRect currentRect;
+@property CGRect redrawRect;
 
 @end
