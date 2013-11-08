@@ -64,7 +64,6 @@
     else
         self.redrawRect = CGRectUnion(self.redrawRect, self.currentRect);
     //self.redrawRect = CGRectInset(self.redrawRect, -2.0, -2.0);
-    NSLog(@"%f, %f, %f, %f", self.redrawRect.origin.x, self.redrawRect.origin.y, self.redrawRect.size.width, self.redrawRect.size.height);
     [self setNeedsDisplayInRect:self.redrawRect];
 }
 
