@@ -10,6 +10,8 @@
 
 @interface XYViewController : UIViewController
 
+- (IBAction)changeColor:(UISegmentedControl *)sender;
+- (IBAction)changeColor:(UISegmentedControl *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *field1;
 @property (weak, nonatomic) IBOutlet UITextField *field2;
 @property (weak, nonatomic) IBOutlet UITextField *field3;

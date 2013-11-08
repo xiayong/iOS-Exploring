@@ -141,4 +141,9 @@
     sqlite3_close(database);
 }
 
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+}
+
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+}
 @end

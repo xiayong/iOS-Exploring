@@ -167,4 +167,9 @@
     [self.table reloadData];
 }
 
+- (IBAction)changeShape:(UISegmentedControl *)sender {
+}
+
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+}
 @end

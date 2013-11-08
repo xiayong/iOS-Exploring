@@ -10,6 +10,8 @@
 
 @interface XYViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
+- (IBAction)changeShape:(UISegmentedControl *)sender;
+- (IBAction)changeColor:(UISegmentedControl *)sender;
 //@property (strong, nonatomic) NSDictionary *names;
 //@property (strong, nonatomic) NSArray *keys;
 

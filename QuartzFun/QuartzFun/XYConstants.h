@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 Xia Yong. All rights reserved.
 //
 
-
+// #ifndef 这条编译指令的目的是先检查QuartzFun_XYConstants_h是否已经定义了，如果没有定义，才定义它
 #ifndef QuartzFun_XYConstants_h
 #define QuartzFun_XYConstants_h
 typedef enum {

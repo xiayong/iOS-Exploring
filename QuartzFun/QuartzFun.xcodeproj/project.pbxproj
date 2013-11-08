@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6105050218298C190006468F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6105050118298C180006468F /* Main.storyboard */; };
 		611CF2681828196400D979A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CF2671828196400D979A5 /* Foundation.framework */; };
 		611CF26A1828196400D979A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CF2691828196400D979A5 /* CoreGraphics.framework */; };
 		611CF26C1828196400D979A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CF26B1828196400D979A5 /* UIKit.framework */; };
 		611CF2721828196400D979A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611CF2701828196400D979A5 /* InfoPlist.strings */; };
 		611CF2741828196400D979A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF2731828196400D979A5 /* main.m */; };
 		611CF2781828196400D979A5 /* XYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF2771828196400D979A5 /* XYAppDelegate.m */; };
-		611CF27B1828196400D979A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611CF2791828196400D979A5 /* Main.storyboard */; };
 		611CF27E1828196400D979A5 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF27D1828196400D979A5 /* XYViewController.m */; };
 		611CF2801828196400D979A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611CF27F1828196400D979A5 /* Images.xcassets */; };
 		611CF2871828196400D979A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611CF2861828196400D979A5 /* XCTest.framework */; };
@@ -23,6 +23,7 @@
 		611CF2931828196400D979A5 /* QuartzFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF2921828196400D979A5 /* QuartzFunTests.m */; };
 		611CF29E1828199500D979A5 /* XYQuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF29D1828199500D979A5 /* XYQuartzFunView.m */; };
 		611CF2A41828201C00D979A5 /* UIColor+XYRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 611CF2A31828201C00D979A5 /* UIColor+XYRandomColor.m */; };
+		61AD6AD7182D614A00FE9EC4 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 61AD6AD6182D614A00FE9EC4 /* iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6105050118298C180006468F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		611CF2641828196400D979A5 /* QuartzFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611CF2671828196400D979A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		611CF2691828196400D979A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +48,6 @@
 		611CF2751828196400D979A5 /* QuartzFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzFun-Prefix.pch"; sourceTree = "<group>"; };
 		611CF2761828196400D979A5 /* XYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAppDelegate.h; sourceTree = "<group>"; };
 		611CF2771828196400D979A5 /* XYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAppDelegate.m; sourceTree = "<group>"; };
-		611CF27A1828196400D979A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		611CF27C1828196400D979A5 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
 		611CF27D1828196400D979A5 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
 		611CF27F1828196400D979A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		611CF2A21828201C00D979A5 /* UIColor+XYRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XYRandomColor.h"; sourceTree = "<group>"; };
 		611CF2A31828201C00D979A5 /* UIColor+XYRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XYRandomColor.m"; sourceTree = "<group>"; };
 		611CF2A5182823AA00D979A5 /* XYConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYConstants.h; sourceTree = "<group>"; };
+		61AD6AD6182D614A00FE9EC4 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +123,9 @@
 			children = (
 				611CF2761828196400D979A5 /* XYAppDelegate.h */,
 				611CF2771828196400D979A5 /* XYAppDelegate.m */,
-				611CF2791828196400D979A5 /* Main.storyboard */,
 				611CF27C1828196400D979A5 /* XYViewController.h */,
 				611CF27D1828196400D979A5 /* XYViewController.m */,
+				6105050118298C180006468F /* Main.storyboard */,
 				611CF29C1828199500D979A5 /* XYQuartzFunView.h */,
 				611CF29D1828199500D979A5 /* XYQuartzFunView.m */,
 				611CF2A21828201C00D979A5 /* UIColor+XYRandomColor.h */,
@@ -138,6 +140,7 @@
 		611CF26E1828196400D979A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61AD6AD6182D614A00FE9EC4 /* iphone.png */,
 				611CF26F1828196400D979A5 /* QuartzFun-Info.plist */,
 				611CF2701828196400D979A5 /* InfoPlist.strings */,
 				611CF2731828196400D979A5 /* main.m */,
@@ -241,9 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61AD6AD7182D614A00FE9EC4 /* iphone.png in Resources */,
 				611CF2801828196400D979A5 /* Images.xcassets in Resources */,
 				611CF2721828196400D979A5 /* InfoPlist.strings in Resources */,
-				611CF27B1828196400D979A5 /* Main.storyboard in Resources */,
+				6105050218298C190006468F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +299,6 @@
 				611CF2711828196400D979A5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		611CF2791828196400D979A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				611CF27A1828196400D979A5 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		611CF28F1828196400D979A5 /* InfoPlist.strings */ = {
@@ -397,7 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
 				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,7 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
 				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,6 +475,7 @@
 				611CF2981828196400D979A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		611CF2991828196400D979A5 /* Build configuration list for PBXNativeTarget "QuartzFunTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +484,7 @@
 				611CF29B1828196400D979A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

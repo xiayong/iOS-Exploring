@@ -66,4 +66,9 @@
         self.view.bounds = CGRectMake(0.0, 0.0, 480, 300);
     }
 }
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+}
+
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+}
 @end

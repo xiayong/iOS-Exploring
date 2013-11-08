@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class XYViewController;
 
 @interface XYAppDelegate : UIResponder <UIApplicationDelegate>
 

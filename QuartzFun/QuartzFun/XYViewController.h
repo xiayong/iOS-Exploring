@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface XYViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UISegmentedControl *colorControl;
+- (IBAction)changeColor:(UISegmentedControl *)sender;
+- (IBAction)changeShape:(UISegmentedControl *)sender;
 @end
