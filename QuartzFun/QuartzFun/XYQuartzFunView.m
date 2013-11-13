@@ -98,14 +98,14 @@
         case kRectShape:
             // 画一个矩形
             CGContextAddRect(context, self.currentRect);
-            // 使用填充的方式画出这个矩形
-            CGContextDrawPath(context, kCGPathFillStroke);
+            // 使用奇偶规则填充的方式画出这个矩形
+            CGContextDrawPath(context, kCGPathEOFill);
             break;
         case kEllipseShape:
             // 画一个椭圆形
             CGContextAddEllipseInRect(context, self.currentRect);
-            // 使用填充的方式画出这个椭圆形
-            CGContextDrawPath(context, kCGPathFillStroke);
+            // 使用填充填充的方式画出这个椭圆形
+            CGContextDrawPath(context, kCGPathEOFill);
             break;
         case kImageShape: {
             // 计算图像的位置
