@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		613884E91834063300DA9D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613884E81834063300DA9D2D /* Foundation.framework */; };
+		613884EB1834063300DA9D2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613884EA1834063300DA9D2D /* CoreGraphics.framework */; };
+		613884ED1834063300DA9D2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613884EC1834063300DA9D2D /* UIKit.framework */; };
+		613884F31834063300DA9D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613884F11834063300DA9D2D /* InfoPlist.strings */; };
+		613884F51834063300DA9D2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613884F41834063300DA9D2D /* main.m */; };
+		613884F91834063300DA9D2D /* XYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 613884F81834063300DA9D2D /* XYAppDelegate.m */; };
+		613884FC1834063300DA9D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613884FA1834063300DA9D2D /* Main.storyboard */; };
+		613884FF1834063300DA9D2D /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 613884FE1834063300DA9D2D /* XYViewController.m */; };
+		613885011834063300DA9D2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613885001834063300DA9D2D /* Images.xcassets */; };
+		613885081834063300DA9D2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613885071834063300DA9D2D /* XCTest.framework */; };
+		613885091834063300DA9D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613884E81834063300DA9D2D /* Foundation.framework */; };
+		6138850A1834063300DA9D2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613884EC1834063300DA9D2D /* UIKit.framework */; };
+		613885121834063300DA9D2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 613885101834063300DA9D2D /* InfoPlist.strings */; };
+		613885141834063300DA9D2D /* GLFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 613885131834063300DA9D2D /* GLFunTests.m */; };
+		61388523183406AD00DA9D2D /* OpenGLES2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6138851F183406AD00DA9D2D /* OpenGLES2DView.m */; };
+		61388524183406AD00DA9D2D /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 61388521183406AD00DA9D2D /* Texture2D.m */; };
+		613885261834076F00DA9D2D /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 613885251834076F00DA9D2D /* iphone.png */; };
+		6138852A183408CF00DA9D2D /* XYGLFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61388529183408CF00DA9D2D /* XYGLFunView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6138850B1834063300DA9D2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613884DD1834063300DA9D2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613884E41834063300DA9D2D;
+			remoteInfo = GLFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		613884E51834063300DA9D2D /* GLFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613884E81834063300DA9D2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		613884EA1834063300DA9D2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		613884EC1834063300DA9D2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		613884F01834063300DA9D2D /* GLFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLFun-Info.plist"; sourceTree = "<group>"; };
+		613884F21834063300DA9D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		613884F41834063300DA9D2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613884F61834063300DA9D2D /* GLFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLFun-Prefix.pch"; sourceTree = "<group>"; };
+		613884F71834063300DA9D2D /* XYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAppDelegate.h; sourceTree = "<group>"; };
+		613884F81834063300DA9D2D /* XYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAppDelegate.m; sourceTree = "<group>"; };
+		613884FB1834063300DA9D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		613884FD1834063300DA9D2D /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		613884FE1834063300DA9D2D /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		613885001834063300DA9D2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		613885061834063300DA9D2D /* GLFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613885071834063300DA9D2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6138850F1834063300DA9D2D /* GLFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLFunTests-Info.plist"; sourceTree = "<group>"; };
+		613885111834063300DA9D2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		613885131834063300DA9D2D /* GLFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLFunTests.m; sourceTree = "<group>"; };
+		6138851E183406AD00DA9D2D /* OpenGLES2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLES2DView.h; sourceTree = "<group>"; };
+		6138851F183406AD00DA9D2D /* OpenGLES2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLES2DView.m; sourceTree = "<group>"; };
+		61388520183406AD00DA9D2D /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		61388521183406AD00DA9D2D /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		613885251834076F00DA9D2D /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		613885271834080A00DA9D2D /* XYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYConstants.h; sourceTree = "<group>"; };
+		61388528183408CF00DA9D2D /* XYGLFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYGLFunView.h; sourceTree = "<group>"; };
+		61388529183408CF00DA9D2D /* XYGLFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYGLFunView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613884E21834063300DA9D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613884EB1834063300DA9D2D /* CoreGraphics.framework in Frameworks */,
+				613884ED1834063300DA9D2D /* UIKit.framework in Frameworks */,
+				613884E91834063300DA9D2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613885031834063300DA9D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613885081834063300DA9D2D /* XCTest.framework in Frameworks */,
+				6138850A1834063300DA9D2D /* UIKit.framework in Frameworks */,
+				613885091834063300DA9D2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613884DC1834063300DA9D2D = {
+			isa = PBXGroup;
+			children = (
+				613884EE1834063300DA9D2D /* GLFun */,
+				6138850D1834063300DA9D2D /* GLFunTests */,
+				613884E71834063300DA9D2D /* Frameworks */,
+				613884E61834063300DA9D2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		613884E61834063300DA9D2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613884E51834063300DA9D2D /* GLFun.app */,
+				613885061834063300DA9D2D /* GLFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		613884E71834063300DA9D2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613884E81834063300DA9D2D /* Foundation.framework */,
+				613884EA1834063300DA9D2D /* CoreGraphics.framework */,
+				613884EC1834063300DA9D2D /* UIKit.framework */,
+				613885071834063300DA9D2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613884EE1834063300DA9D2D /* GLFun */ = {
+			isa = PBXGroup;
+			children = (
+				613885271834080A00DA9D2D /* XYConstants.h */,
+				6138851E183406AD00DA9D2D /* OpenGLES2DView.h */,
+				6138851F183406AD00DA9D2D /* OpenGLES2DView.m */,
+				61388520183406AD00DA9D2D /* Texture2D.h */,
+				61388521183406AD00DA9D2D /* Texture2D.m */,
+				613884F71834063300DA9D2D /* XYAppDelegate.h */,
+				613884F81834063300DA9D2D /* XYAppDelegate.m */,
+				613884FA1834063300DA9D2D /* Main.storyboard */,
+				613884FD1834063300DA9D2D /* XYViewController.h */,
+				613884FE1834063300DA9D2D /* XYViewController.m */,
+				61388528183408CF00DA9D2D /* XYGLFunView.h */,
+				61388529183408CF00DA9D2D /* XYGLFunView.m */,
+				613885001834063300DA9D2D /* Images.xcassets */,
+				613884EF1834063300DA9D2D /* Supporting Files */,
+			);
+			path = GLFun;
+			sourceTree = "<group>";
+		};
+		613884EF1834063300DA9D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613885251834076F00DA9D2D /* iphone.png */,
+				613884F01834063300DA9D2D /* GLFun-Info.plist */,
+				613884F11834063300DA9D2D /* InfoPlist.strings */,
+				613884F41834063300DA9D2D /* main.m */,
+				613884F61834063300DA9D2D /* GLFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6138850D1834063300DA9D2D /* GLFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				613885131834063300DA9D2D /* GLFunTests.m */,
+				6138850E1834063300DA9D2D /* Supporting Files */,
+			);
+			path = GLFunTests;
+			sourceTree = "<group>";
+		};
+		6138850E1834063300DA9D2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6138850F1834063300DA9D2D /* GLFunTests-Info.plist */,
+				613885101834063300DA9D2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		613884E41834063300DA9D2D /* GLFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613885171834063300DA9D2D /* Build configuration list for PBXNativeTarget "GLFun" */;
+			buildPhases = (
+				613884E11834063300DA9D2D /* Sources */,
+				613884E21834063300DA9D2D /* Frameworks */,
+				613884E31834063300DA9D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLFun;
+			productName = GLFun;
+			productReference = 613884E51834063300DA9D2D /* GLFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		613885051834063300DA9D2D /* GLFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6138851A1834063300DA9D2D /* Build configuration list for PBXNativeTarget "GLFunTests" */;
+			buildPhases = (
+				613885021834063300DA9D2D /* Sources */,
+				613885031834063300DA9D2D /* Frameworks */,
+				613885041834063300DA9D2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6138850C1834063300DA9D2D /* PBXTargetDependency */,
+			);
+			name = GLFunTests;
+			productName = GLFunTests;
+			productReference = 613885061834063300DA9D2D /* GLFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613884DD1834063300DA9D2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XY;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Xia Yong";
+				TargetAttributes = {
+					613885051834063300DA9D2D = {
+						TestTargetID = 613884E41834063300DA9D2D;
+					};
+				};
+			};
+			buildConfigurationList = 613884E01834063300DA9D2D /* Build configuration list for PBXProject "GLFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 613884DC1834063300DA9D2D;
+			productRefGroup = 613884E61834063300DA9D2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613884E41834063300DA9D2D /* GLFun */,
+				613885051834063300DA9D2D /* GLFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613884E31834063300DA9D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613885261834076F00DA9D2D /* iphone.png in Resources */,
+				613885011834063300DA9D2D /* Images.xcassets in Resources */,
+				613884F31834063300DA9D2D /* InfoPlist.strings in Resources */,
+				613884FC1834063300DA9D2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613885041834063300DA9D2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613885121834063300DA9D2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613884E11834063300DA9D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613884F51834063300DA9D2D /* main.m in Sources */,
+				61388523183406AD00DA9D2D /* OpenGLES2DView.m in Sources */,
+				6138852A183408CF00DA9D2D /* XYGLFunView.m in Sources */,
+				61388524183406AD00DA9D2D /* Texture2D.m in Sources */,
+				613884FF1834063300DA9D2D /* XYViewController.m in Sources */,
+				613884F91834063300DA9D2D /* XYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613885021834063300DA9D2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613885141834063300DA9D2D /* GLFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6138850C1834063300DA9D2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 613884E41834063300DA9D2D /* GLFun */;
+			targetProxy = 6138850B1834063300DA9D2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		613884F11834063300DA9D2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613884F21834063300DA9D2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		613884FA1834063300DA9D2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613884FB1834063300DA9D2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		613885101834063300DA9D2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				613885111834063300DA9D2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		613885151834063300DA9D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		613885161834063300DA9D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		613885181834063300DA9D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				INFOPLIST_FILE = "GLFun/GLFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		613885191834063300DA9D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				INFOPLIST_FILE = "GLFun/GLFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6138851B1834063300DA9D2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GLFun.app/GLFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GLFunTests/GLFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6138851C1834063300DA9D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GLFun.app/GLFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLFun/GLFun-Prefix.pch";
+				INFOPLIST_FILE = "GLFunTests/GLFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613884E01834063300DA9D2D /* Build configuration list for PBXProject "GLFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613885151834063300DA9D2D /* Debug */,
+				613885161834063300DA9D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613885171834063300DA9D2D /* Build configuration list for PBXNativeTarget "GLFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613885181834063300DA9D2D /* Debug */,
+				613885191834063300DA9D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6138851A1834063300DA9D2D /* Build configuration list for PBXNativeTarget "GLFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6138851B1834063300DA9D2D /* Debug */,
+				6138851C1834063300DA9D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613884DD1834063300DA9D2D /* Project object */;
+}
