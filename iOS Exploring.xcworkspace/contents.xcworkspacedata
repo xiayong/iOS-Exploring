@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Swipes2/Swipes2.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Swipes/Swipes.xcodeproj">
    </FileRef>
    <FileRef
