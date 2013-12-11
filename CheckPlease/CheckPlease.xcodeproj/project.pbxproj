@@ -22,6 +22,7 @@
 		6164CA9C1858BD0900CEA3CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6164CA9A1858BD0900CEA3CE /* InfoPlist.strings */; };
 		6164CA9E1858BD0900CEA3CE /* CheckPleaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6164CA9D1858BD0900CEA3CE /* CheckPleaseTests.m */; };
 		6164CAA91858BD3B00CEA3CE /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 6164CAA71858BD3B00CEA3CE /* CGPointUtils.c */; };
+		6164CAAC1858BDD200CEA3CE /* XYCheckMarkRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6164CAAB1858BDD200CEA3CE /* XYCheckMarkRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6164CA9D1858BD0900CEA3CE /* CheckPleaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckPleaseTests.m; sourceTree = "<group>"; };
 		6164CAA71858BD3B00CEA3CE /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
 		6164CAA81858BD3B00CEA3CE /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
+		6164CAAA1858BDD200CEA3CE /* XYCheckMarkRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCheckMarkRecognizer.h; sourceTree = "<group>"; };
+		6164CAAB1858BDD200CEA3CE /* XYCheckMarkRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCheckMarkRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				6164CA841858BD0800CEA3CE /* Main.storyboard */,
 				6164CA871858BD0800CEA3CE /* XYViewController.h */,
 				6164CA881858BD0800CEA3CE /* XYViewController.m */,
+				6164CAAA1858BDD200CEA3CE /* XYCheckMarkRecognizer.h */,
+				6164CAAB1858BDD200CEA3CE /* XYCheckMarkRecognizer.m */,
 				6164CA8A1858BD0800CEA3CE /* Images.xcassets */,
 				6164CA791858BD0800CEA3CE /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6164CAA91858BD3B00CEA3CE /* CGPointUtils.c in Sources */,
+				6164CAAC1858BDD200CEA3CE /* XYCheckMarkRecognizer.m in Sources */,
 				6164CA7F1858BD0800CEA3CE /* main.m in Sources */,
 				6164CA891858BD0800CEA3CE /* XYViewController.m in Sources */,
 				6164CA831858BD0800CEA3CE /* XYAppDelegate.m in Sources */,
