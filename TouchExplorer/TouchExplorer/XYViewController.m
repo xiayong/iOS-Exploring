@@ -27,9 +27,9 @@
 }
 
 - (void)updateLabelsFromTouches:(NSSet *)touches {
-    self.tapsLabel.text = [NSString stringWithFormat:@"%lu taps detected", [[touches anyObject] tapCount]];
+    self.tapsLabel.text = [NSString stringWithFormat:@"%lu taps detected", (long)[[touches anyObject] tapCount]];
     
-    self.touchesLabel.text = [NSString stringWithFormat:@"%lu touches detected", touches.count];
+    self.touchesLabel.text = [NSString stringWithFormat:@"%lu touches detected", (long)touches.count];
 }
 
 #pragma mark -
