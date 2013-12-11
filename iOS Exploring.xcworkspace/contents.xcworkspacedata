@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CheckPlease/CheckPlease.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PinchMe/PinchMe.xcodeproj">
    </FileRef>
    <FileRef
