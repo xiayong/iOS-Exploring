@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface XYViewController : UIViewController
+@interface XYViewController : UIViewController<CLLocationManagerDelegate>
+
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) CLLocation *startingPoint;
+@property (weak, nonatomic) IBOutlet UILabel *latutudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *longitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *horizontalAccuracyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *altitudeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *verticalAccuracyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *distanceTraveledLabel;
 
 @end
